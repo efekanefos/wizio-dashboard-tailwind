@@ -1,10 +1,11 @@
 import { StrictMode, useState } from "react";
 import { createRoot } from "react-dom/client";
-import "./index.css"; // TailwindCSS'in bulunduğu CSS dosyası
+import "./index.css";
 import App from "./App";
 const links = [
   { href: "/sign-in", label: "Sign In" },
   { href: "/create-account", label: "Create Account" },
+  { href: "/forget-password", label: "Forget Password" },
 ];
 
 function MenuList() {
