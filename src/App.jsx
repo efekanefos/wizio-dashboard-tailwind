@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SignIn from "./components/AuthenticationPages/SignIn";
+import CreateAnAccount from "./components/AuthenticationPages/CreateAnAccount";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           }
         />
         <Route path="/sign-in" element={<SignIn />} />
+        <Route path="/create-account" element={<CreateAnAccount />} />
       </Routes>
     </Router>
   );
