@@ -5,6 +5,7 @@ import CreateAnAccount from "./components/AuthenticationPages/CreateAnAccount";
 import ForgetYourPassword from "./components/AuthenticationPages/ForgetYourPassword";
 import LockScreen from "./components/AuthenticationPages/LockScreen";
 import Verification from "./components/AuthenticationPages/Verification";
+import CreateAPassword from "./components/AuthenticationPages/CreateAPassword";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/forget-password" element={<ForgetYourPassword />} />
         <Route path="/lock-screen" element={<LockScreen />} />
         <Route path="/verification" element={<Verification />} />
+        <Route path="/create-password" element={<CreateAPassword />} />
       </Routes>
     </Router>
   );
