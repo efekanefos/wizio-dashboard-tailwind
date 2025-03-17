@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SignIn from "./components/AuthenticationPages/SignIn";
 import CreateAnAccount from "./components/AuthenticationPages/CreateAnAccount";
 import ForgetYourPassword from "./components/AuthenticationPages/ForgetYourPassword";
+import LockScreen from "./components/AuthenticationPages/LockScreen";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/create-account" element={<CreateAnAccount />} />
         <Route path="/forget-password" element={<ForgetYourPassword />} />
+        <Route path="/lock-screen" element={<LockScreen />} />
       </Routes>
     </Router>
   );
