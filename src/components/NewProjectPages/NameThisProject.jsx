@@ -11,14 +11,14 @@ const NameThisProject = () => {
     }
   };
   return (
-    <div className="bg-[#E5E7EB] h-screen p-6 max-xl:px-5 max-md:px-4 max-sm:px-3">
-      <div className="h-full flex flex-col justify-between items-center w-full max-w-[1024px] mx-auto">
+    <div className="bg-[#E5E7EB] h-screen ">
+      <div className="h-full flex flex-col justify-between items-center w-full max-w-[1024px] mx-auto p-12 max-xl:px-5 max-md:px-4 max-sm:px-3">
         {/* Upper Content */}
         <div className="w-full flex justify-between items-center">
-          <ProjectLogo className={"w-16 h-12 fill-black"} />
+          <ProjectLogo className={"w-12 h-8 fill-black"} />
 
           <div className="flex justify-between items-center gap-5">
-            <button className="outline-none border-[0.5px] border-black rounded-full py-2 px-4">Save & Exit</button>
+            <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4">Save & Exit</button>
 
             <button className="w-7 h-7 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
               <CloseIcon className={"w-4 h-4 stroke-black stroke-2"} />
@@ -65,8 +65,8 @@ const NameThisProject = () => {
             <div className="w-full h-1 bg-white"></div>
           </div>
           <div className="w-full flex justify-between items-center py-3">
-            <button className="outline-none border-[0.5px] border-black rounded-full py-2 px-4">Back</button>
-            <button className="outline-none border-[0.5px] border-black rounded-full py-2 px-4">Next</button>
+            <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4">Back</button>
+            <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4">Next</button>
           </div>
         </div>
       </div>

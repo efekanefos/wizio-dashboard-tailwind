@@ -10,6 +10,7 @@ const links = [
   { href: "/verification", label: "Verification" },
   { href: "/create-password", label: "Create Password" },
   { href: "/name-this-project", label: "Name This Project" },
+  { href: "/upload-exterior-visuals", label: "Upload Exterior Visuals" },
 ];
 
 function MenuList() {
