@@ -4,6 +4,7 @@ import SignIn from "./components/AuthenticationPages/SignIn";
 import CreateAnAccount from "./components/AuthenticationPages/CreateAnAccount";
 import ForgetYourPassword from "./components/AuthenticationPages/ForgetYourPassword";
 import LockScreen from "./components/AuthenticationPages/LockScreen";
+import Verification from "./components/AuthenticationPages/Verification";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/create-account" element={<CreateAnAccount />} />
         <Route path="/forget-password" element={<ForgetYourPassword />} />
         <Route path="/lock-screen" element={<LockScreen />} />
+        <Route path="/verification" element={<Verification />} />
       </Routes>
     </Router>
   );

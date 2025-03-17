@@ -7,6 +7,7 @@ const links = [
   { href: "/create-account", label: "Create Account" },
   { href: "/forget-password", label: "Forget Password" },
   { href: "/lock-screen", label: "Lock Screen" },
+  { href: "/verification", label: "Verification" },
 ];
 
 function MenuList() {
