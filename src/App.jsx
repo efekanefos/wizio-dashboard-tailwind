@@ -6,6 +6,7 @@ import ForgetYourPassword from "./components/AuthenticationPages/ForgetYourPassw
 import LockScreen from "./components/AuthenticationPages/LockScreen";
 import Verification from "./components/AuthenticationPages/Verification";
 import CreateAPassword from "./components/AuthenticationPages/CreateAPassword";
+import NameThisProject from "./components/NewProjectPages/NameThisProject";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/lock-screen" element={<LockScreen />} />
         <Route path="/verification" element={<Verification />} />
         <Route path="/create-password" element={<CreateAPassword />} />
+        <Route path="/name-this-project" element={<NameThisProject />} />
       </Routes>
     </Router>
   );
