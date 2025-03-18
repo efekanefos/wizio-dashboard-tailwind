@@ -11,7 +11,8 @@ import livingroom_5 from "../../svg/livingroom_5.png";
 import livingroom_6 from "../../svg/livingroom_6.png";
 import livingroom_7 from "../../svg/livingroom_7.png";
 import livingroom_8 from "../../svg/livingroom_8.png";
-const UploadExteriorVisuals = () => {
+
+const UploadInteriorVisuals = () => {
   const handleFileUpload = () => {
     const fileInput = document.getElementById("fileInput");
     if (fileInput) {
@@ -37,7 +38,7 @@ const UploadExteriorVisuals = () => {
         {/* Main Content */}
         <div className="flex flex-col justify-center items-center w-full  mx-auto">
           {/* Title */}
-          <h3 className="font-bold text-4xl text-center">Upload Exterior Visuals</h3>
+          <h3 className="font-bold text-4xl text-center">Upload Interior Visuals</h3>
 
           {/* File Input */}
           <div onClick={handleFileUpload} className="max-w-[632px] w-full border-[0.5px] border-dashed border-gray-600 min-h-40 flex justify-center items-center rounded-[40px] mt-5 cursor-pointer">
@@ -124,7 +125,7 @@ const UploadExteriorVisuals = () => {
           <div className="flex justify-center items-center gap-2 w-full py-3">
             <div className="w-full h-1 bg-black"></div>
             <div className="w-full h-1 bg-black"></div>
-            <div className="w-full h-1 bg-white"></div>
+            <div className="w-full h-1 bg-black"></div>
             <div className="w-full h-1 bg-white"></div>
             <div className="w-full h-1 bg-white"></div>
             <div className="w-full h-1 bg-white"></div>
@@ -140,4 +141,4 @@ const UploadExteriorVisuals = () => {
   );
 };
 
-export default UploadExteriorVisuals;
+export default UploadInteriorVisuals;

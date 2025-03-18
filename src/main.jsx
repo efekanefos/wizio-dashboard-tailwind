@@ -11,6 +11,11 @@ const links = [
   { href: "/create-password", label: "Create Password" },
   { href: "/name-this-project", label: "Name This Project" },
   { href: "/upload-exterior-visuals", label: "Upload Exterior Visuals" },
+  { href: "/upload-interior-visuals", label: "Upload Interior Visuals" },
+  { href: "/upload-social-area-visuals", label: "Upload Social Area Visuals" },
+  { href: "/add-360-links", label: "Add 360 Links" },
+  { href: "/add-video-link", label: "Add Video Link" },
+  { href: "/upload-brochures-or-files", label: "Upload Brochures or Files" },
 ];
 
 function MenuList() {
