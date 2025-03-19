@@ -26,7 +26,7 @@ const CreateANewType = () => {
           {/* Title */}
           <h3 className="font-bold text-4xl text-center">Create a New Type</h3>
           {/* Property Types */}
-          <div className="flex justify-center items-center gap-4 w-full mt-6">
+          <div className="flex flex-wrap justify-center items-center gap-4 w-full mt-6">
             <div className="w-52 py-5 border-[0.5px] border-black rounded-3xl">
               <HomeIcon className={"w-5 h-5 stroke-gray-600 stroke-[1.5px] fill-none mx-auto"} />
               <p className="text-gray-600 text-center">
