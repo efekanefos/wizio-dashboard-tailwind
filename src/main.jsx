@@ -20,6 +20,7 @@ const links = [
   { href: "/create-a-new-type", label: "Create A New Type" },
   { href: "/master-type-a", label: "Master Type A" },
   { href: "/change-project-details", label: "Change Project Details" },
+  { href: "/create-a-new-group", label: "Create a New Group" },
   { href: "/change-poi", label: "Change POI" },
   { href: "/add-poi", label: "Add POI" },
 ];
