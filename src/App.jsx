@@ -13,6 +13,12 @@ import UploadSocialAreaVisuals from "./components/NewProjectPages/UploadSocialAr
 import Add360Links from "./components/NewProjectPages/Add360Links";
 import AddVideoLink from "./components/NewProjectPages/AddVideoLink";
 import UploadBrochuresOrFiles from "./components/NewProjectPages/UploadBrochuresOrFiles";
+import CreateANewType from "./components/NewTypePages/CreateANewType";
+import MasterTypeA from "./components/NewTypePages/MasterTypeA";
+import ChangeProjectDetails from "./components/NewTypePages/ChangeProjectDetails";
+import CreateANewGroup from "./components/NewTypePages/CreateANewGroup";
+import ChangePOI from "./components/NewTypePages/ChangePOI";
+import AddPOI from "./components/NewTypePages/AddPOI";
 
 function App() {
   return (
@@ -39,6 +45,12 @@ function App() {
         <Route path="/add-360-links" element={<Add360Links />} />
         <Route path="/add-video-link" element={<AddVideoLink />} />
         <Route path="/upload-brochures-or-files" element={<UploadBrochuresOrFiles />} />
+        <Route path="/create-a-new-type" element={<CreateANewType />} />
+        <Route path="/master-type-a" element={<MasterTypeA />} />
+        <Route path="/change-project-details" element={<ChangeProjectDetails />} />
+        <Route path="/create-a-new-group" element={<CreateANewGroup />} />
+        <Route path="/change-poi" element={<ChangePOI />} />
+        <Route path="/add-poi" element={<AddPOI />} />
       </Routes>
     </Router>
   );

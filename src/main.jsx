@@ -2,6 +2,7 @@ import { StrictMode, useState } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App";
+
 const links = [
   { href: "/sign-in", label: "Sign In" },
   { href: "/create-account", label: "Create Account" },
@@ -16,6 +17,11 @@ const links = [
   { href: "/add-360-links", label: "Add 360 Links" },
   { href: "/add-video-link", label: "Add Video Link" },
   { href: "/upload-brochures-or-files", label: "Upload Brochures or Files" },
+  { href: "/create-a-new-type", label: "Create A New Type" },
+  { href: "/master-type-a", label: "Master Type A" },
+  { href: "/change-project-details", label: "Change Project Details" },
+  { href: "/change-poi", label: "Change POI" },
+  { href: "/add-poi", label: "Add POI" },
 ];
 
 function MenuList() {
