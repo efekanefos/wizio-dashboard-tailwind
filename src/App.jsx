@@ -19,6 +19,12 @@ import ChangeProjectDetails from "./components/NewTypePages/ChangeProjectDetails
 import CreateANewGroup from "./components/NewTypePages/CreateANewGroup";
 import ChangePOI from "./components/NewTypePages/ChangePOI";
 import AddPOI from "./components/NewTypePages/AddPOI";
+import NameThisUnit from "./components/NewUnitPages/NameThisUnit";
+import AddDetails from "./components/NewUnitPages/AddDetails";
+import AddDetailsWithButton from "./components/NewUnitPages/AddDetailsWithButton";
+import AddDetailsWithProperties from "./components/NewUnitPages/AddDetailsWithProperties";
+import AddDetailsWithExtraButttons from "./components/NewUnitPages/AddDetailsWithExtraButttons";
+import AddFinancialPlan from "./components/NewUnitPages/AddFinancialPlan";
 
 function App() {
   return (
@@ -51,6 +57,12 @@ function App() {
         <Route path="/create-a-new-group" element={<CreateANewGroup />} />
         <Route path="/change-poi" element={<ChangePOI />} />
         <Route path="/add-poi" element={<AddPOI />} />
+        <Route path="/name-this-unit" element={<NameThisUnit />} />
+        <Route path="/add-details" element={<AddDetails />} />
+        <Route path="/add-details-with-button" element={<AddDetailsWithButton />} />
+        <Route path="/add-details-with-properties" element={<AddDetailsWithProperties />} />
+        <Route path="/add-details-with-extra-buttons" element={<AddDetailsWithExtraButttons />} />
+        <Route path="/add-financial-plan" element={<AddFinancialPlan />} />
       </Routes>
     </Router>
   );

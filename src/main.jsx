@@ -23,11 +23,17 @@ const links = [
   { href: "/create-a-new-group", label: "Create a New Group" },
   { href: "/change-poi", label: "Change POI" },
   { href: "/add-poi", label: "Add POI" },
+  { href: "/name-this-unit", label: "Name This Unit" },
+  { href: "/add-details", label: "Add Details" },
+  { href: "/add-details-with-button", label: "Add Details With Button" },
+  { href: "/add-details-with-properties", label: "Add Details With Properties" },
+  { href: "/add-details-with-extra-buttons", label: "Add Details With Extra Buttons" },
+  { href: "/add-financial-plan", label: "Add Financial Plan" },
 ];
 
 function MenuList() {
   return (
-    <div className="fixed bottom-3 right-3 z-20 flex flex-col gap-1 max-md:hidden">
+    <div style={{ scrollbarWidth: "none" }} className="fixed bottom-3 right-3 z-20 overflow-y-scroll max-h-screen pt-5 flex flex-col justify-start items-start gap-1 max-md:hidden">
       {links.map((link, index) => (
         <a key={index} href={link.href} className=" bg-white text-black px-4 py-2 rounded-[30px] text-[12px] hover:bg-black hover:text-white border border-black">
           {link.label}
