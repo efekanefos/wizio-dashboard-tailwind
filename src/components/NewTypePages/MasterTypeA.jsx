@@ -13,7 +13,7 @@ import masterTypeAImage from "../../svg/masterTypeAImage.png";
 const MasterTypeA = () => {
   return (
     <div className="bg-gray-200">
-      <div className="h-full flex flex-col justify-start items-center w-full max-w-[1024px] mx-auto p-12 max-xl:px-5 max-lg:gap-10 max-md:px-4 max-sm:px-3">
+      <div className="h-full flex flex-col justify-start items-center w-full p-12 max-xl:px-5 max-lg:gap-10 max-md:px-4 max-sm:px-3">
         {/* Upper Content */}
         <div className="w-full flex justify-between items-center">
           <ProjectLogo className={"w-12 h-8 fill-black"} />
@@ -47,7 +47,7 @@ const MasterTypeA = () => {
           </div>
         </div>
         {/* Type Details Content */}
-        <div className="flex justify-start items-center gap-12 w-full my-10">
+        <div className="flex justify-start items-center gap-12 w-full my-10 max-w-[928px]">
           <div className="rounded-[40px] overflow-hidden">
             <img src={masterTypeAImage} alt="masterTypeAImage" />
           </div>
@@ -65,7 +65,7 @@ const MasterTypeA = () => {
           </div>
         </div>
         {/* Unit Details Content */}
-        <div className="w-full grid grid-cols-3 justify-between items-start gap-4">
+        <div className="w-full grid grid-cols-3 justify-between items-start max-w-[928px] gap-4">
           {/* List */}
           <div className="col-span-1 p-5 bg-white w-full rounded-[40px]">
             <div className="flex justify-start items-center py-2 gap-5">

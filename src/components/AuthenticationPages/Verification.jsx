@@ -2,7 +2,7 @@ import React from "react";
 import ProjectLogo from "../../svg/ProjectLogo";
 const Verification = () => {
   return (
-    <div className="bg-[#E5E7EB] h-screen flex justify-center items-center w-full max-2xl:px-6 max-xl:px-5 max-md:px-4 max-sm:px-3">
+    <div className="bg-[#E5E7EB] h-screen flex justify-center items-center w-full py-5 max-2xl:px-12 max-xl:px-5 max-md:px-4 max-sm:px-3">
       <div className="flex flex-col justify-center items-center w-full max-w-[632px] mx-auto">
         {/* Logo and Title */}
         <div className="mb-12">

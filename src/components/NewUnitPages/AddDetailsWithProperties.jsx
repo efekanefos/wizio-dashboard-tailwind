@@ -13,7 +13,7 @@ import PoolIcon from "../../svg/PoolIcon";
 const AddDetailsWithProperties = () => {
   return (
     <div className="bg-[#E5E7EB] h-screen max-sm:h-full">
-      <div className="h-full flex flex-col justify-between items-center w-full max-w-[1024px] mx-auto p-12 max-xl:px-5 max-md:px-4 max-sm:px-3">
+      <div className="h-full flex flex-col justify-between items-center w-full p-12 max-xl:px-5 max-md:px-4 max-sm:px-3">
         {/* Upper Content */}
         <div className="w-full flex justify-between items-center">
           <ProjectLogo className={"w-12 h-8 fill-black"} />

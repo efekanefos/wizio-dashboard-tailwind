@@ -21,7 +21,7 @@ const UploadInteriorVisuals = () => {
   };
   return (
     <div className="bg-[#E5E7EB] h-screen max-lg:h-max">
-      <div className="h-full flex flex-col justify-between items-center w-full max-w-[1024px] mx-auto p-12 max-xl:px-5 max-lg:gap-10 max-md:px-4 max-sm:px-3">
+      <div className="h-full flex flex-col justify-between items-center w-full p-12 max-xl:px-5 max-lg:gap-10 max-md:px-4 max-sm:px-3">
         {/* Upper Content */}
         <div className="w-full flex justify-between items-center">
           <ProjectLogo className={"w-12 h-8 fill-black"} />
@@ -36,7 +36,7 @@ const UploadInteriorVisuals = () => {
         </div>
 
         {/* Main Content */}
-        <div className="flex flex-col justify-center items-center w-full  mx-auto">
+        <div className="flex flex-col justify-center items-center max-w-[928px] w-full  mx-auto">
           {/* Title */}
           <h3 className="font-bold text-4xl text-center">Upload Interior Visuals</h3>
 
