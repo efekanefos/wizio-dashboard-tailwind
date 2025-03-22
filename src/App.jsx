@@ -25,6 +25,11 @@ import AddDetailsWithButton from "./components/NewUnitPages/AddDetailsWithButton
 import AddDetailsWithProperties from "./components/NewUnitPages/AddDetailsWithProperties";
 import AddDetailsWithExtraButttons from "./components/NewUnitPages/AddDetailsWithExtraButttons";
 import AddFinancialPlan from "./components/NewUnitPages/AddFinancialPlan";
+import NameThisBlock from "./components/NewBlockPages/NameThisBlock";
+import AddBlockDetails from "./components/NewBlockPages/AddBlockDetails";
+import AddUnitsEachFloor from "./components/NewBlockPages/AddUnitsEachFloor";
+import UploadBlockExteriorVisual from "./components/NewBlockPages/UploadBlockExteriorVisual";
+import AddTownhouseDetails from "./components/NewBlockPages/AddTownhouseDetails";
 
 function App() {
   return (
@@ -63,6 +68,11 @@ function App() {
         <Route path="/add-details-with-properties" element={<AddDetailsWithProperties />} />
         <Route path="/add-details-with-extra-buttons" element={<AddDetailsWithExtraButttons />} />
         <Route path="/add-financial-plan" element={<AddFinancialPlan />} />
+        <Route path="/name-this-block" element={<NameThisBlock />} />
+        <Route path="/add-block-details" element={<AddBlockDetails />} />
+        <Route path="/add-units-each-floor" element={<AddUnitsEachFloor />} />
+        <Route path="/upload-block-exterior-visual" element={<UploadBlockExteriorVisual />} />
+        <Route path="/add-townhouse-details" element={<AddTownhouseDetails />} />
       </Routes>
     </Router>
   );

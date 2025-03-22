@@ -29,6 +29,11 @@ const links = [
   { href: "/add-details-with-properties", label: "Add Details With Properties" },
   { href: "/add-details-with-extra-buttons", label: "Add Details With Extra Buttons" },
   { href: "/add-financial-plan", label: "Add Financial Plan" },
+  { href: "/name-this-block", label: "Name This Block" },
+  { href: "/add-block-details", label: "Add Block Details" },
+  { href: "/add-units-each-floor", label: "Add Units Each Floor" },
+  { href: "/upload-block-exterior-visual", label: "Upload Block Exterior Visual" },
+  { href: "/add-townhouse-details", label: "Add Townhouse Details" },
 ];
 
 function MenuList() {
