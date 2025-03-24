@@ -34,6 +34,15 @@ const links = [
   { href: "/add-units-each-floor", label: "Add Units Each Floor" },
   { href: "/upload-block-exterior-visual", label: "Upload Block Exterior Visual" },
   { href: "/add-townhouse-details", label: "Add Townhouse Details" },
+  { href: "/project-gallery", label: "Project Gallery" },
+  { href: "/change-unit-details", label: "Change Unit Details" },
+  { href: "/edit-unit-a", label: "Edit Unit A" },
+  { href: "/change-unit-details-radio", label: "Change Unit Details Radio" },
+  { href: "/unit-gallery", label: "Unit Gallery" },
+  { href: "/add-new-client", label: "Add New Client" },
+  { href: "/change-client-details", label: "Change Client Details" },
+  { href: "/add-notes-to-client", label: "Add Notes to Client" },
+  { href: "/assign-to", label: "Assign to" },
 ];
 
 function MenuList() {

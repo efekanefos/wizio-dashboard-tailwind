@@ -30,6 +30,15 @@ import AddBlockDetails from "./components/NewBlockPages/AddBlockDetails";
 import AddUnitsEachFloor from "./components/NewBlockPages/AddUnitsEachFloor";
 import UploadBlockExteriorVisual from "./components/NewBlockPages/UploadBlockExteriorVisual";
 import AddTownhouseDetails from "./components/NewBlockPages/AddTownhouseDetails";
+import ProjectGallery from "./components/MediaPages/ProjectGallery";
+import ChangeUnitDetails from "./components/UnitDetailsPages/ChangeUnitDetails";
+import EditUnitA from "./components/UnitDetailsPages/EditUnitA";
+import ChangeUnitDetailsWithRadio from "./components/UnitDetailsPages/ChangeUnitDetailsWithRadio";
+import UnitGallery from "./components/MediaPages/UnitGallery";
+import AddNewClient from "./components/ClientPages/AddNewClient";
+import ChangeClientDetails from "./components/ClientPages/ChangeClientDetails";
+import AddNotesToClient from "./components/ClientPages/AddNotesToClient";
+import AssignTo from "./components/ClientPages/AssignTo";
 
 function App() {
   return (
@@ -73,6 +82,15 @@ function App() {
         <Route path="/add-units-each-floor" element={<AddUnitsEachFloor />} />
         <Route path="/upload-block-exterior-visual" element={<UploadBlockExteriorVisual />} />
         <Route path="/add-townhouse-details" element={<AddTownhouseDetails />} />
+        <Route path="/project-gallery" element={<ProjectGallery />} />
+        <Route path="/change-unit-details" element={<ChangeUnitDetails />} />
+        <Route path="/edit-unit-a" element={<EditUnitA />} />
+        <Route path="/change-unit-details-radio" element={<ChangeUnitDetailsWithRadio />} />
+        <Route path="/unit-gallery" element={<UnitGallery />} />
+        <Route path="/add-new-client" element={<AddNewClient />} />
+        <Route path="/change-client-details" element={<ChangeClientDetails />} />
+        <Route path="/add-notes-to-client" element={<AddNotesToClient />} />
+        <Route path="/assign-to" element={<AssignTo />} />
       </Routes>
     </Router>
   );
