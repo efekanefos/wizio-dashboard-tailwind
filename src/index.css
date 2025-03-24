@@ -5,3 +5,6 @@
 #ClientNote::-webkit-resizer {
   visibility: hidden;
 }
+html {
+  background-color: #e5e7eb;
+}
