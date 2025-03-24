@@ -35,7 +35,7 @@ const AddNotesToClient = () => {
               name="ClientNote"
               id="ClientNote"
             ></textarea>
-            <TextAreaResizeIcon className={"w-4 h-4 absolute bottom-0 right-8 fill-black pointer-events-none"} />
+            <TextAreaResizeIcon className={"w-4 h-4 absolute bottom-0 right-8 max-sm:right-0 fill-black pointer-events-none"} />
           </div>
         </div>
       </div>
