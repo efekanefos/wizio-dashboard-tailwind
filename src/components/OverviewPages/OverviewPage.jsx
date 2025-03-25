@@ -65,10 +65,10 @@ const OverviewPage = () => {
         </div>
       </div>
       {/* Project Slider */}
-      <div className="my-20 flex justify-start gap-5 pl-12 max-xl:pl-5 max-md:pl-4 max-sm:pl-3 overflow-hidden max-md:mt-10 max-md:mb-4">
+      <div className="my-20 flex justify-start gap-5 pl-12 max-xl:pl-5 max-md:pl-4 max-sm:pl-3 overflow-hidden max-md:mt-10 max-md:mb-4 max-sm:gap-3">
         <div className="flex justify-start items-center rounded-r-[40px] w-fit bg-[radial-gradient(circle,_rgba(75,85,99,0.6)_0%,_rgba(209,213,219,0.6)_100%)] backdrop-blur-2xl min-h-60 max-md:min-h-40">
-          <div className="px-7">
-            <PlusIcon className="w-8 h-8 stroke-black" />
+          <div className="px-7 max-sm:px-3">
+            <PlusIcon className="w-8 h-8 stroke-black max-sm:w-6" />
           </div>
         </div>
         <Splide
@@ -88,13 +88,13 @@ const OverviewPage = () => {
           {Array.from({ length: 6 }).map((_, index) => (
             <SplideSlide key={index}>
               <div className="flex justify-start items-center rounded-[40px] w-fit bg-[radial-gradient(circle,_rgba(75,85,99,0.6)_0%,_rgba(209,213,219,0.6)_100%)] backdrop-blur-2xl">
-                <div className="border-r border-black p-5">
-                  <h3 className="text-4xl leading-10 font-bold max-md:text-xl">One</h3>
-                  <div className="flex justify-start items-start gap-5 mt-5 mr-5 max-md:mt-4">
-                    <div className="rounded-[40px] overflow-hidden">
-                      <img src={projectSliderImg} alt="projectSliderImg" />
+                <div className="border-r border-black p-5 max-sm:p-4">
+                  <h3 className="text-4xl leading-10 font-bold max-md:text-xl w-fit">One</h3>
+                  <div className="flex justify-start items-start gap-5 mt-5 mr-5 max-md:mt-4 max-sm:mr-0">
+                    <div className="rounded-[40px] overflow-hidden max-sm:rounded-3xl">
+                      <img className="max-sm:w-24 max-sm:h-24" src={projectSliderImg} alt="projectSliderImg" />
                     </div>
-                    <div className="flex flex-col gap-4 max-md:gap-7">
+                    <div className="flex flex-col gap-4 max-sm:gap-0">
                       <div className="flex flex-col">
                         <p className="text-4xl font-bold leading-7 max-md:text-xl">
                           €510.32 <span className="text-base leading-6 max-md:text-xs">m</span>
