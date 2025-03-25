@@ -79,9 +79,12 @@ const OverviewPage = () => {
             rewind: true,
             perPage: 3,
             gap: "20px",
-            autoWidth: true,
             focus: "center",
-            omitEnd: true,
+            breakpoints: {
+              640: {
+                perPage: 1,
+              },
+            },
           }}
           aria-label="Project Slider"
         >
