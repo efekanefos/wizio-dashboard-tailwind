@@ -39,6 +39,10 @@ import AddNewClient from "./components/ClientPages/AddNewClient";
 import ChangeClientDetails from "./components/ClientPages/ChangeClientDetails";
 import AddNotesToClient from "./components/ClientPages/AddNotesToClient";
 import AssignTo from "./components/ClientPages/AssignTo";
+import AddNewTeamMember from "./components/ClientPages/AddNewTeamMember";
+import EditTeamMemberDetails from "./components/ClientPages/EditTeamMemberDetails";
+import ManageRules from "./components/ClientPages/ManageRules";
+import OverviewPage from "./components/OverviewPages/OverviewPage";
 
 function App() {
   return (
@@ -91,6 +95,10 @@ function App() {
         <Route path="/change-client-details" element={<ChangeClientDetails />} />
         <Route path="/add-notes-to-client" element={<AddNotesToClient />} />
         <Route path="/assign-to" element={<AssignTo />} />
+        <Route path="/add-new-team-member" element={<AddNewTeamMember />} />
+        <Route path="/edit-team-member-details" element={<EditTeamMemberDetails />} />
+        <Route path="/manage-rules" element={<ManageRules />} />
+        <Route path="/overview" element={<OverviewPage />} />
       </Routes>
     </Router>
   );
