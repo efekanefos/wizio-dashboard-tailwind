@@ -77,10 +77,14 @@ const OverviewPage = () => {
             pagination: false,
             loop: true,
             rewind: true,
-            perPage: 3,
+            perPage: 4,
             gap: "20px",
             focus: "center",
+            autoWidth: true,
             breakpoints: {
+              768: {
+                perPage: 3,
+              },
               640: {
                 perPage: 1,
               },
