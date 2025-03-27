@@ -43,6 +43,7 @@ import AddNewTeamMember from "./components/ClientPages/AddNewTeamMember";
 import EditTeamMemberDetails from "./components/ClientPages/EditTeamMemberDetails";
 import ManageRules from "./components/ClientPages/ManageRules";
 import OverviewPage from "./components/OverviewPages/OverviewPage";
+import ProjectPage from "./components/OverviewPages/ProjectPage";
 
 function App() {
   return (
@@ -99,6 +100,7 @@ function App() {
         <Route path="/edit-team-member-details" element={<EditTeamMemberDetails />} />
         <Route path="/manage-rules" element={<ManageRules />} />
         <Route path="/overview" element={<OverviewPage />} />
+        <Route path="/project" element={<ProjectPage />} />
       </Routes>
     </Router>
   );

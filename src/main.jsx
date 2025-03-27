@@ -47,6 +47,7 @@ const links = [
   { href: "/edit-team-member-details", label: "Edit Team Member" },
   { href: "/manage-rules", label: "Manage Rules" },
   { href: "/overview", label: "Overview" },
+  { href: "/project", label: "Project" },
 ];
 
 function MenuList() {
