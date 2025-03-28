@@ -48,6 +48,7 @@ const links = [
   { href: "/manage-rules", label: "Manage Rules" },
   { href: "/overview", label: "Overview" },
   { href: "/project", label: "Project" },
+  { href: "/unit", label: "Unit" },
 ];
 
 function MenuList() {

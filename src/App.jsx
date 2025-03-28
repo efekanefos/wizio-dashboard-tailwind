@@ -44,6 +44,7 @@ import EditTeamMemberDetails from "./components/ClientPages/EditTeamMemberDetail
 import ManageRules from "./components/ClientPages/ManageRules";
 import OverviewPage from "./components/OverviewPages/OverviewPage";
 import ProjectPage from "./components/OverviewPages/ProjectPage";
+import UnitPage from "./components/OverviewPages/UnitPage";
 
 function App() {
   return (
@@ -101,6 +102,7 @@ function App() {
         <Route path="/manage-rules" element={<ManageRules />} />
         <Route path="/overview" element={<OverviewPage />} />
         <Route path="/project" element={<ProjectPage />} />
+        <Route path="/unit" element={<UnitPage />} />
       </Routes>
     </Router>
   );
