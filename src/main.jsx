@@ -49,6 +49,8 @@ const links = [
   { href: "/overview", label: "Overview" },
   { href: "/project", label: "Project" },
   { href: "/unit", label: "Unit" },
+  { href: "/client", label: "Client" },
+  { href: "/team", label: "Team" },
 ];
 
 function MenuList() {

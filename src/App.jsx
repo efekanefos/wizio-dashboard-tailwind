@@ -45,6 +45,8 @@ import ManageRules from "./components/ClientPages/ManageRules";
 import OverviewPage from "./components/OverviewPages/OverviewPage";
 import ProjectPage from "./components/OverviewPages/ProjectPage";
 import UnitPage from "./components/OverviewPages/UnitPage";
+import ClientPage from "./components/OverviewPages/ClientPage";
+import TeamPage from "./components/OverviewPages/TeamPage";
 
 function App() {
   return (
@@ -103,6 +105,8 @@ function App() {
         <Route path="/overview" element={<OverviewPage />} />
         <Route path="/project" element={<ProjectPage />} />
         <Route path="/unit" element={<UnitPage />} />
+        <Route path="/client" element={<ClientPage />} />
+        <Route path="/team" element={<TeamPage />} />
       </Routes>
     </Router>
   );
