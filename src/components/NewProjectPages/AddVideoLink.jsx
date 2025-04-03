@@ -30,7 +30,7 @@ const AddVideoLink = () => {
 
             <input className="text-gray-400 outline-none bg-transparent border border-gray-400 p-5 py-3.5 rounded-full w-full leading-3" type="text" placeholder="Please add html link here" />
           </div>
-          <button className="text-white bg-black w-fit py-0.5 px-4 rounded-full mt-14">Add new 360</button>
+          <button className="text-white bg-black w-fit py-0.5 px-4 rounded-full mt-14">Add new video</button>
         </div>
 
         {/* Below Content */}
