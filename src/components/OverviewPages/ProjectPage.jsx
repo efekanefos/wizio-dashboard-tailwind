@@ -31,19 +31,19 @@ const ProjectPage = () => {
           <p className="text-xl leading-7">Clients</p>
           <p className="text-xl leading-7">Team</p>
           <button className="bg-lime-500 flex justify-center items-center gap-2.5 rounded-full py-1.5 px-4">
-            <PortalIcon className={"w-6 h-6 fill-black"} />
+            <PortalIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black"} />
             <p>Portal</p>
           </button>
         </div>
 
         <div className="flex justify-start items-center gap-5 max-md:hidden">
-          <DarkModeIcon className={"w-6 h-6 stroke-black stroke-[1.5px] fill-none"} />
-          <GlobalIcon className={"w-6 h-6  fill-black"} />
-          <NotificationIcon className={"w-6 h-6  stroke-black fill-none "} />
-          <UserIcon className={"w-6 h-6 stroke-black fill-none "} />
+          <DarkModeIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black stroke-[1.5px] fill-none"} />
+          <GlobalIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4  fill-black"} />
+          <NotificationIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4  stroke-black fill-none "} />
+          <UserIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black fill-none "} />
         </div>
 
-        <MobileHamburgerIcon className={"hidden max-md:block w-5 h-5 stroke-black stroke-2"} />
+        <MobileHamburgerIcon className={"hidden max-md:block w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black stroke-2"} />
       </div>
       {/* Type Title Content */}
       <div className="flex justify-between items-center w-full mt-5">
@@ -51,8 +51,8 @@ const ProjectPage = () => {
 
         <div className="flex justify-start items-center gap-5">
           <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4 text-base leading-6">Date</button>
-          <button className="w-7 h-7 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
-            <FileUploadIcon className={"w-4 h-4 stroke-black stroke-[1.5px] fill-none"} />
+          <button className="w-9 h-9 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
+            <FileUploadIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black stroke-[1.5px] fill-none"} />
           </button>
         </div>
       </div>
@@ -65,7 +65,7 @@ const ProjectPage = () => {
           <div className="relative pr-6">
             <h2 className="font-bold text-5xl leading-10 max-md:text-4xl">Project A</h2>
             <p className="text-xl leading-4 mt-2 max-md:text-xl">Paphos</p>
-            <EditIcon className={"w-4 h-4 stroke-black fill-none absolute top-0 right-0"} />
+            <EditIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black fill-none absolute top-0 right-0"} />
           </div>
 
           <div className="flex justify-start items-start">
@@ -147,7 +147,7 @@ const ProjectPage = () => {
 
           <div className="py-5 flex justify-between items-center my-2.5 border-b border-black">
             <button className="flex justify-center items-center gap-2.5 px-4 py-1 border-[0.25px] border-black rounded-full">
-              <ThreeDotIcon className={"w-4 h-4 fill-black"} />
+              <ThreeDotIcon className={"w-5 h-5 fill-black"} />
               <p className="leading-6">Bulk Action</p>
             </button>
 
@@ -156,9 +156,9 @@ const ProjectPage = () => {
                 <p className="leading-6">Create a Group</p>
               </button>
               <div className="flex justify-start items-center gap-5">
-                <ReorderIcon className="w-6 h-6 fill-black" />
-                <ColumnIcon className="w-6 h-6 fill-black" />
-                <FilterIcon className="w-6 h-6 stroke-black fill-none" />
+                <ReorderIcon className="w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black" />
+                <ColumnIcon className="w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black" />
+                <FilterIcon className="w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black fill-none" />
               </div>
             </div>
           </div>
@@ -177,56 +177,56 @@ const ProjectPage = () => {
                   <th className="py-4">
                     <div className="flex justify-start items-center gap-2.5 w-[368px]">
                       <p className="text-sm font-bold">Name</p>
-                      <DownArrowIcon className={"w-3 h-2 fill-none stroke-gray-600 stroke-[1.25px]"} />
+                      <DownArrowIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-none stroke-gray-600 stroke-[1.25px]"} />
                     </div>
                   </th>
 
                   <th className="py-4">
                     <div className="flex justify-start items-center gap-2.5 min-w-44">
                       <p className="text-sm font-bold">Type</p>
-                      <DownArrowIcon className={"w-3 h-2 fill-none stroke-gray-600 stroke-[1.25px]"} />
+                      <DownArrowIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-none stroke-gray-600 stroke-[1.25px]"} />
                     </div>
                   </th>
 
                   <th className="py-4">
                     <div className="flex justify-start items-center gap-2.5 min-w-44">
                       <p className="text-sm font-bold">Status</p>
-                      <DownArrowIcon className={"w-3 h-2 fill-none stroke-gray-600 stroke-[1.25px]"} />
+                      <DownArrowIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-none stroke-gray-600 stroke-[1.25px]"} />
                     </div>
                   </th>
 
                   <th className="py-4">
                     <div className="flex justify-start items-center gap-2.5 min-w-44">
                       <p className="text-sm font-bold">Price</p>
-                      <DownArrowIcon className={"w-3 h-2 fill-none stroke-gray-600 stroke-[1.25px]"} />
+                      <DownArrowIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-none stroke-gray-600 stroke-[1.25px]"} />
                     </div>
                   </th>
 
                   <th className="py-4">
                     <div className="flex justify-start items-center gap-2.5 min-w-44">
                       <p className="text-sm font-bold">Bed</p>
-                      <DownArrowIcon className={"w-3 h-2 fill-none stroke-gray-600 stroke-[1.25px]"} />
+                      <DownArrowIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-none stroke-gray-600 stroke-[1.25px]"} />
                     </div>
                   </th>
 
                   <th className="py-4">
                     <div className="flex justify-start items-center gap-2.5 min-w-44">
                       <p className="text-sm font-bold">SQM</p>
-                      <DownArrowIcon className={"w-3 h-2 fill-none stroke-gray-600 stroke-[1.25px]"} />
+                      <DownArrowIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-none stroke-gray-600 stroke-[1.25px]"} />
                     </div>
                   </th>
 
                   <th className="py-4">
                     <div className="flex justify-start items-center gap-2.5 min-w-44">
                       <p className="text-sm font-bold">View</p>
-                      <DownArrowIcon className={"w-3 h-2 fill-none stroke-gray-600 stroke-[1.25px]"} />
+                      <DownArrowIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-none stroke-gray-600 stroke-[1.25px]"} />
                     </div>
                   </th>
 
                   <th className="py-4">
                     <div className="flex justify-start items-center gap-2.5 min-w-44">
                       <p className="text-sm font-bold">Fav</p>
-                      <DownArrowIcon className={"w-3 h-2 fill-none stroke-gray-600 stroke-[1.25px]"} />
+                      <DownArrowIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-none stroke-gray-600 stroke-[1.25px]"} />
                     </div>
                   </th>
                 </tr>
@@ -756,8 +756,8 @@ const ProjectPage = () => {
             <p className="leading-6 max-md:hidden">110-120 of 1,250</p>
 
             <div className="flex justify-center items-center gap-2">
-              <div className="w-7 h-7 rounded-full border-[0.25px] border-black flex justify-center items-center">
-                <DownArrowIcon className={"w-4 h-4 fill-none stroke-black stroke-[1.25px] rotate-90"} />
+              <div className="w-9 h-9 rounded-full border-[0.25px] border-black flex justify-center items-center">
+                <DownArrowIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-none stroke-black stroke-[1.25px] rotate-90"} />
               </div>
 
               <div className="w-9 h-9 bg-black text-white rounded-full border-[0.25px] border-black flex justify-center items-center">
@@ -782,15 +782,15 @@ const ProjectPage = () => {
                 <p className="leading-6">25</p>
               </div>
 
-              <div className="w-7 h-7 rounded-full border-[0.25px] border-black flex justify-center items-center">
-                <DownArrowIcon className={"w-4 h-4 fill-none stroke-black stroke-[1.25px] -rotate-90"} />
+              <div className="w-9 h-9 rounded-full border-[0.25px] border-black flex justify-center items-center">
+                <DownArrowIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-none stroke-black stroke-[1.25px] -rotate-90"} />
               </div>
             </div>
             <div className="flex justify-start items-center gap-2 max-md:hidden">
               <p className="leading-6">per page</p>
               <button className="flex justify-center items-center gap-2.5 px-3 py-1 border-[0.25px] border-black rounded-full">
                 <p className="leading-6">50</p>
-                <DownArrowIcon className={"w-4 h-4 fill-none stroke-black stroke-[1.25px]"} />
+                <DownArrowIcon className={"w-5 h-5 fill-none stroke-black stroke-[1.25px]"} />
               </button>
             </div>
           </div>
@@ -854,9 +854,9 @@ const ProjectPage = () => {
 
             <div className="flex justify-start items-center gap-5">
               <div className="flex justify-start items-center gap-5">
-                <ReorderIcon className="w-6 h-6 fill-black" />
-                <ColumnIcon className="w-6 h-6 fill-black" />
-                <FilterIcon className="w-6 h-6 stroke-black fill-none" />
+                <ReorderIcon className="w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black" />
+                <ColumnIcon className="w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black" />
+                <FilterIcon className="w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black fill-none" />
               </div>
             </div>
           </div>
@@ -875,7 +875,7 @@ const ProjectPage = () => {
                   <DownArrowIcon className={"w-4 h-4 fill-none stroke-black stroke-[1.25px] -ml-0.5"} />
                 </div>
               </div>
-              <ThreeDotIcon className={"w-5 h-5 fill-black"} />
+              <ThreeDotIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black"} />
             </div>
 
             <div className="flex justify-between items-center border-b border-gray-400">
@@ -885,7 +885,7 @@ const ProjectPage = () => {
                   <p className="text-sm ml-12">Restaurant A</p>
                 </div>
               </div>
-              <ThreeDotIcon className={"w-5 h-5 fill-black"} />
+              <ThreeDotIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black"} />
             </div>
 
             <div className="flex justify-between items-center border-b border-gray-400">
@@ -895,7 +895,7 @@ const ProjectPage = () => {
                   <p className="text-sm ml-12">Restaurant B</p>
                 </div>
               </div>
-              <ThreeDotIcon className={"w-5 h-5 fill-black"} />
+              <ThreeDotIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black"} />
             </div>
 
             <div className="flex justify-between items-center border-b border-gray-400">
@@ -906,7 +906,7 @@ const ProjectPage = () => {
                   <DownArrowIcon className={"w-4 h-4 fill-none stroke-black stroke-[1.25px] -ml-0.5"} />
                 </div>
               </div>
-              <ThreeDotIcon className={"w-5 h-5 fill-black"} />
+              <ThreeDotIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black"} />
             </div>
 
             <div className="flex justify-between items-center border-b border-gray-400">
@@ -916,7 +916,7 @@ const ProjectPage = () => {
                   <p className="text-sm ml-12">Airport A</p>
                 </div>
               </div>
-              <ThreeDotIcon className={"w-5 h-5 fill-black"} />
+              <ThreeDotIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black"} />
             </div>
 
             <div className="flex justify-between items-center border-b border-gray-400">
@@ -927,7 +927,7 @@ const ProjectPage = () => {
                   <DownArrowIcon className={"w-4 h-4 fill-none stroke-black stroke-[1.25px] -ml-0.5"} />
                 </div>
               </div>
-              <ThreeDotIcon className={"w-5 h-5 fill-black"} />
+              <ThreeDotIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black"} />
             </div>
 
             <div className="flex justify-between items-center border-b border-gray-400">
@@ -937,7 +937,7 @@ const ProjectPage = () => {
                   <p className="text-sm ml-12">Museum A</p>
                 </div>
               </div>
-              <ThreeDotIcon className={"w-5 h-5 fill-black"} />
+              <ThreeDotIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black"} />
             </div>
 
             <div className="flex justify-between items-center border-b border-gray-400">
@@ -947,7 +947,7 @@ const ProjectPage = () => {
                   <p className="text-sm ml-12">Museum B</p>
                 </div>
               </div>
-              <ThreeDotIcon className={"w-5 h-5 fill-black"} />
+              <ThreeDotIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black"} />
             </div>
 
             <div className="flex justify-between items-center border-b border-gray-400">
@@ -957,7 +957,7 @@ const ProjectPage = () => {
                   <p className="text-sm ml-12">Museum C</p>
                 </div>
               </div>
-              <ThreeDotIcon className={"w-5 h-5 fill-black"} />
+              <ThreeDotIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black"} />
             </div>
 
             <div className="flex justify-between items-center border-b border-gray-400">
@@ -967,7 +967,7 @@ const ProjectPage = () => {
                   <p className="text-sm ml-12">Museum D</p>
                 </div>
               </div>
-              <ThreeDotIcon className={"w-5 h-5 fill-black"} />
+              <ThreeDotIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black"} />
             </div>
           </div>
 
@@ -975,25 +975,25 @@ const ProjectPage = () => {
             <p className="leading-6 max-md:hidden">110-120 of 1,250</p>
 
             <div className="flex justify-center items-center gap-2">
-              <div className="w-7 h-7 rounded-full border-[0.25px] border-black flex justify-center items-center">
-                <DownArrowIcon className={"w-4 h-4 fill-none stroke-black stroke-[1.25px] rotate-90"} />
+              <div className="w-9 h-9 rounded-full border-[0.25px] border-black flex justify-center items-center">
+                <DownArrowIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-none stroke-black stroke-[1.25px] rotate-90"} />
               </div>
 
-              <div className="w-7 h-7 rounded-full border-[0.25px] border-black flex justify-center items-center">
-                <DownArrowIcon className={"w-4 h-4 fill-none stroke-black stroke-[1.25px] -rotate-90"} />
+              <div className="w-9 h-9 rounded-full border-[0.25px] border-black flex justify-center items-center">
+                <DownArrowIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-none stroke-black stroke-[1.25px] -rotate-90"} />
               </div>
             </div>
             <div className="flex justify-start items-center gap-2">
               <p className="leading-6">per page</p>
               <button className="flex justify-center items-center gap-2.5 px-3 py-1 border-[0.25px] border-black rounded-full">
                 <p className="leading-6">50</p>
-                <DownArrowIcon className={"w-4 h-4 fill-none stroke-black stroke-[1.25px]"} />
+                <DownArrowIcon className={"w-5 h-5 fill-none stroke-black stroke-[1.25px]"} />
               </button>
             </div>
           </div>
         </div>
 
-        <div className="rounded-[40px] overflow-hidden">
+        <div className="w-full max-h-[796px] rounded-[40px] overflow-hidden ">
           <img className="w-full h-full object-cover" src={projectPageBuildingImg} alt="projectPageBuildingImg" />
         </div>
       </div>

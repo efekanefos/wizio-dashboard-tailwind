@@ -24,19 +24,19 @@ const UnitPage = () => {
           <p className="text-xl leading-7">Clients</p>
           <p className="text-xl leading-7">Team</p>
           <button className="bg-lime-500 flex justify-center items-center gap-2.5 rounded-full py-1.5 px-4">
-            <PortalIcon className={"w-6 h-6 fill-black"} />
+            <PortalIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black"} />
             <p>Portal</p>
           </button>
         </div>
 
         <div className="flex justify-start items-center gap-5 max-md:hidden">
-          <DarkModeIcon className={"w-6 h-6 stroke-black stroke-[1.5px] fill-none"} />
-          <GlobalIcon className={"w-6 h-6  fill-black"} />
-          <NotificationIcon className={"w-6 h-6  stroke-black fill-none "} />
-          <UserIcon className={"w-6 h-6 stroke-black fill-none "} />
+          <DarkModeIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black stroke-[1.5px] fill-none"} />
+          <GlobalIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4  fill-black"} />
+          <NotificationIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4  stroke-black fill-none "} />
+          <UserIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black fill-none "} />
         </div>
 
-        <MobileHamburgerIcon className={"hidden max-md:block w-5 h-5 stroke-black stroke-2"} />
+        <MobileHamburgerIcon className={"hidden max-md:block w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black stroke-2"} />
       </div>
 
       {/* Type Title Content */}
@@ -45,8 +45,8 @@ const UnitPage = () => {
 
         <div className="flex justify-start items-center gap-5">
           <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4 text-base leading-6">Date</button>
-          <button className="w-7 h-7 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
-            <FileUploadIcon className={"w-4 h-4 stroke-black stroke-[1.5px] fill-none"} />
+          <button className="w-9 h-9 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
+            <FileUploadIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black stroke-[1.5px] fill-none"} />
           </button>
         </div>
       </div>
@@ -62,9 +62,9 @@ const UnitPage = () => {
               <h2 className="font-bold text-5xl max-md:text-4xl max-sm:text-2xl">Unit 101</h2>
               <div className="flex justify-start items-center gap-3 mt-2 max-md:mt-0">
                 <p className="text-xl leading-4 max-md:text-xl max-sm:text-base">Available</p>
-                <div className="w-4 h-4 rounded-full bg-lime-500"></div>
+                <div className="w-5 h-5 rounded-full bg-lime-500"></div>
               </div>
-              <EditIcon className={"w-4 h-4 stroke-black fill-none absolute top-0 right-0"} />
+              <EditIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black fill-none absolute top-0 -right-1"} />
             </div>
 
             <div className="flex justify-start items-start">
@@ -85,7 +85,7 @@ const UnitPage = () => {
               <div className="pr-5">
                 <div className="flex justify-start items-start gap-1">
                   <h1 className="text-4xl leading-10 font-bold max-md:text-2xl">54</h1>
-                  <FavouriteIcon className="w-6 h-6 fill-red-500 mt-1" />
+                  <FavouriteIcon className="w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-red-500 mt-1" />
                 </div>
                 <p className="text-xl leading-8 max-md:text-base">Favourites</p>
               </div>
@@ -99,7 +99,7 @@ const UnitPage = () => {
         <div className="p-5 bg-white bg-opacity-75 w-full rounded-[40px] max-w-72 max-md:max-w-full">
           <div className="flex justify-start items-center gap-5">
             <h4 className="leading-10 font-bold text-4xl">Details</h4>
-            <EditIcon className={"w-6 h-6 stroke-black fill-none"} />
+            <EditIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black fill-none"} />
           </div>
           <ul className="mt-5">
             <li className="flex justify-between items-center py-2 border-b-[0.25px] border-gray-400">

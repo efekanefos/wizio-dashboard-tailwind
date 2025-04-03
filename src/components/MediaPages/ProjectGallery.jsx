@@ -19,8 +19,8 @@ const ProjectGallery = () => {
           <div className="flex justify-between items-center gap-5">
             <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4">Save & Exit</button>
 
-            <button className="w-7 h-7 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
-              <CloseIcon className={"w-4 h-4 stroke-black stroke-2"} />
+            <button className="w-9 h-9 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
+              <CloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black stroke-2"} />
             </button>
           </div>
         </div>
@@ -33,31 +33,31 @@ const ProjectGallery = () => {
           {/* Property Types */}
           <div className="grid grid-cols-3 place-items-center justify-center items-center gap-4 w-full mt-5 max-md:flex max-md:flex-wrap">
             <div className="w-48 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
-              <HomeIcon className={"w-6 h-6 stroke-gray-600 stroke-[1.5px] fill-none"} />
+              <HomeIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none"} />
               <p className="text-gray-600 text-center leading-6">Exterior Visuals</p>
             </div>
             <div className="w-48 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
-              <FurnitureIcon className={"w-6 h-6 stroke-gray-600 stroke-[1.5px] fill-none"} />
+              <FurnitureIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none"} />
               <p className="text-gray-600 text-center leading-6">Exterior Visuals</p>
             </div>
             <div className="w-48 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
-              <SocialAreaIcon className={"w-6 h-6 stroke-gray-600 stroke-[1.5px] fill-none"} />
+              <SocialAreaIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none"} />
               <p className="text-gray-600 text-center leading-6">Social Area Visuals</p>
             </div>
             <div className="w-48 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
-              <Tour360Icon className={"w-6 h-6 stroke-gray-600 stroke-[1.5px] fill-none"} />
+              <Tour360Icon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none"} />
               <p className="text-gray-600 text-center leading-6">360 Tours</p>
             </div>
             <div className="w-48 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
-              <BrochureIcon className={"w-5 h-5 stroke-gray-600 fill-none"} />
+              <BrochureIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 fill-none"} />
               <p className="text-gray-600 text-center leading-6">Brochures</p>
             </div>
             <div className="w-48 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
-              <VideoIcon className={"w-5 h-5 stroke-gray-600 fill-none"} />
+              <VideoIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 fill-none"} />
               <p className="text-gray-600 text-center leading-6">Videos</p>
             </div>
             <div className="w-48 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
-              <PlusIcon className={"w-5 h-5 fill-gray-600"} />
+              <PlusIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-gray-600"} />
               <p className="text-gray-600 text-center leading-6">Add New</p>
             </div>
           </div>

@@ -21,19 +21,19 @@ const TeamPage = () => {
           <p className="text-xl leading-7">Clients</p>
           <p className="text-xl leading-7">Team</p>
           <button className="bg-lime-500 flex justify-center items-center gap-2.5 rounded-full py-1.5 px-4">
-            <PortalIcon className={"w-6 h-6 fill-black"} />
+            <PortalIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black"} />
             <p>Portal</p>
           </button>
         </div>
 
         <div className="flex justify-start items-center gap-5 max-md:hidden">
-          <DarkModeIcon className={"w-6 h-6 stroke-black stroke-[1.5px] fill-none"} />
-          <GlobalIcon className={"w-6 h-6  fill-black"} />
-          <NotificationIcon className={"w-6 h-6  stroke-black fill-none "} />
-          <UserIcon className={"w-6 h-6 stroke-black fill-none "} />
+          <DarkModeIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black stroke-[1.5px] fill-none"} />
+          <GlobalIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4  fill-black"} />
+          <NotificationIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4  stroke-black fill-none "} />
+          <UserIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black fill-none "} />
         </div>
 
-        <MobileHamburgerIcon className={"hidden max-md:block w-5 h-5 stroke-black stroke-2"} />
+        <MobileHamburgerIcon className={"hidden max-md:block w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black stroke-2"} />
       </div>
 
       {/* Type Title Content */}
@@ -42,8 +42,8 @@ const TeamPage = () => {
 
         <div className="flex justify-start items-center gap-5">
           <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4 text-base leading-6">Date</button>
-          <button className="w-7 h-7 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
-            <FileUploadIcon className={"w-4 h-4 stroke-black stroke-[1.5px] fill-none"} />
+          <button className="w-9 h-9 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
+            <FileUploadIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black stroke-[1.5px] fill-none"} />
           </button>
         </div>
       </div>

@@ -1,13 +1,11 @@
 import React from "react";
 import ProjectLogo from "../../svg/ProjectLogo";
 import CloseIcon from "../../svg/CloseIcon";
-import PlusIcon from "../../svg/PlusIcon";
 import HomeIcon from "../../svg/HomeIcon";
 import FurnitureIcon from "../../svg/FurnitureIcon";
 import SocialAreaIcon from "../../svg/SocialAreaIcon";
 import Tour360Icon from "../../svg/Tour360Icon";
-import BrochureIcon from "../../svg/BrochureIcon";
-import VideoIcon from "../../svg/VideoIcon";
+
 const UnitGallery = () => {
   return (
     <div className="bg-[#E5E7EB] h-screen">
@@ -19,8 +17,8 @@ const UnitGallery = () => {
           <div className="flex justify-between items-center gap-5">
             <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4">Save & Exit</button>
 
-            <button className="w-7 h-7 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
-              <CloseIcon className={"w-4 h-4 stroke-black stroke-2"} />
+            <button className="w-9 h-9 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
+              <CloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black stroke-2"} />
             </button>
           </div>
         </div>
@@ -33,19 +31,19 @@ const UnitGallery = () => {
           {/* Property Types */}
           <div className="flex flex-wrap max-w-[420px] justify-center items-center gap-5 w-full mt-5">
             <div className="w-48 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
-              <HomeIcon className={"w-6 h-6 stroke-gray-600 stroke-[1.5px] fill-none"} />
+              <HomeIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none"} />
               <p className="text-gray-600 text-center leading-6">Interior Visuals</p>
             </div>
             <div className="w-48 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
-              <FurnitureIcon className={"w-6 h-6 stroke-gray-600 stroke-[1.5px] fill-none"} />
+              <FurnitureIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none"} />
               <p className="text-gray-600 text-center leading-6">360 Tours</p>
             </div>
             <div className="w-48 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
-              <SocialAreaIcon className={"w-6 h-6 stroke-gray-600 stroke-[1.5px] fill-none"} />
+              <SocialAreaIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none"} />
               <p className="text-gray-600 text-center leading-6">Unit Spec File</p>
             </div>
             <div className="w-48 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
-              <Tour360Icon className={"w-6 h-6 stroke-gray-600 stroke-[1.5px] fill-none"} />
+              <Tour360Icon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none"} />
               <p className="text-gray-600 text-center leading-6">Financial Files</p>
             </div>
           </div>

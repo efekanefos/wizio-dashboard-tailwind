@@ -21,8 +21,8 @@ const AddNewTeamMember = () => {
           <div className="flex justify-between items-center gap-5">
             <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4">Save & Exit</button>
 
-            <button className="w-7 h-7 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
-              <CloseIcon className={"w-4 h-4 stroke-black stroke-2"} />
+            <button className="w-9 h-9 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
+              <CloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black stroke-2"} />
             </button>
           </div>
         </div>
@@ -35,8 +35,8 @@ const AddNewTeamMember = () => {
           <div onClick={handleFileUpload} className="w-full border-[0.5px] border-dashed border-gray-600 min-h-40 flex justify-center items-center rounded-[40px] my-5 cursor-pointer">
             <div className="text-center">
               <p className="text-gray-700">Drop files here or click to upload.</p>
-              <div className="w-7 h-7 rounded-full border-[0.5px] border-gray-600 flex justify-center items-center mx-auto mt-5">
-                <FileUploadIcon className={"w-4 h-4 stroke-gray-600 fill-none"} />
+              <div className="w-9 h-9 rounded-full border-[0.5px] border-gray-600 flex justify-center items-center mx-auto mt-5">
+                <FileUploadIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 fill-none"} />
               </div>
             </div>
           </div>
@@ -54,7 +54,7 @@ const AddNewTeamMember = () => {
                 <option value="Position">Position</option>
                 <option value="Position">Position</option>
               </select>
-              <DownArrowIcon className={"w-4 h-2 stroke-black fill-none absolute right-4 top-[21px]"} />
+              <DownArrowIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black fill-none absolute right-4 top-3.5"} />
             </div>
 
             <input className="placeholder:text-gray-400 text-black outline-none bg-transparent border border-gray-400 p-5 py-3.5 rounded-full w-full leading-3" type="email" placeholder="email address" />
@@ -66,7 +66,7 @@ const AddNewTeamMember = () => {
                 <option value="AssignProjects">Assign projects</option>
                 <option value="AssignProjects">Assign projects</option>
               </select>
-              <DownArrowIcon className={"w-4 h-2 stroke-black fill-none absolute right-4 top-[21px]"} />
+              <DownArrowIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black fill-none absolute right-4 top-3.5"} />
             </div>
           </div>
         </div>
