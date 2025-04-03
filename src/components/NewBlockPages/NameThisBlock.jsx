@@ -35,7 +35,7 @@ const NameThisBlock = () => {
                 <option value="Master">Choose a Master Type</option>
                 <option value="Master">Choose a Master Type</option>
               </select>
-              <DownArrowIcon className={"w-4 h-2 stroke-black fill-none absolute right-4 top-[21px]"} />
+              <DownArrowIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black fill-none absolute right-4 top-3.5"} />
               <p className="text-gray-400 text-sm font-normal ml-5 mt-2">How to find coordinates</p>
             </div>
           </div>

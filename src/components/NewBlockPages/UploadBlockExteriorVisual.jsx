@@ -20,8 +20,8 @@ const UploadBlockExteriorVisual = () => {
           <div className="flex justify-between items-center gap-5">
             <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4">Save & Exit</button>
 
-            <button className="w-7 h-7 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
-              <CloseIcon className={"w-4 h-4 stroke-black stroke-2"} />
+            <button className="w-9 h-9 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
+              <CloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black stroke-2"} />
             </button>
           </div>
         </div>
@@ -32,9 +32,9 @@ const UploadBlockExteriorVisual = () => {
           <h3 className="font-bold text-4xl text-center leading-10">Upload Exterior Visual</h3>
           <p className="leading-6 text-gray-400 text-sm">Only single image allowed at this section</p>
 
-          <div className="relative w-48 h-32 rounded-[40px] overflow-hidden my-12">
+          <div className="relative w-48 h-32 rounded-[32px] overflow-hidden my-12">
             <img className="w-full h-full object-cover" src={uploadBlockExteriorVisual} alt="livingroom" />
-            <MiniCloseIcon className={"w-4 h-4 absolute top-3.5 right-3.5"} />
+            <MiniCloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 absolute top-3.5 right-3.5"} />
           </div>
 
           <div className="flex justify-between items-center w-full py-3.5">
