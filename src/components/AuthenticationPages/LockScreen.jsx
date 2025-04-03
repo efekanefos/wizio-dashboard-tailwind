@@ -30,7 +30,7 @@ const LockScreen = () => {
         <div className="flex flex-col gap-10 mt-5 w-full mb-16">
           <div className="w-full relative">
             <input className="text-gray-400 outline-none bg-transparent border border-gray-400 p-5 py-3.5 pr-12 rounded-full w-full leading-3" type="password" placeholder="Enter your password" />
-            <ShowPasswordIcon className={"absolute top-3.5 right-5 w-5 h-5 stroke-gray-600 stroke-[1.5px] fill-none"} />
+            <ShowPasswordIcon className={"absolute top-3.5 right-5 w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none"} />
           </div>
         </div>
 

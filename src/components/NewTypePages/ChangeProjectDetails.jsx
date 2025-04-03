@@ -36,14 +36,14 @@ const ChangeProjectDetails = () => {
             <input value="Project A" readOnly className="text-black outline-none bg-transparent border border-gray-400 p-5 py-3.5 rounded-full w-full leading-3" type="text" />
             <div>
               <input value="50.721995598691436, -1.871064833848868" readOnly className="text-black outline-none bg-transparent border border-gray-400 p-5 py-3.5 rounded-full w-full leading-3" type="text" />
-              <p className="text-gray-400 text-sm font-normal ml-5 mt-2">How to find coordinates</p>
+              <p className="text-gray-400 text-sm font-normal ml-5 mt-2">How to find project coordinates</p>
             </div>
           </div>
 
           {/* File Input */}
           <div onClick={handleFileUpload} className="w-full border-[0.5px] border-dashed border-gray-600 min-h-40 flex justify-center items-center rounded-[40px] mt-5 cursor-pointer">
             <div className="text-center">
-              <p className="text-gray-700">Drop files here or click to upload.</p>
+              <p className="text-gray-700">Drop project logo here or click to upload.</p>
               <div className="w-7 h-7 rounded-full border-[0.5px] border-gray-600 flex justify-center items-center mx-auto mt-5">
                 <FileUploadIcon className={"w-4 h-4 stroke-gray-600 fill-none"} />
               </div>

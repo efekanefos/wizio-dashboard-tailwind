@@ -28,12 +28,12 @@ const CreateAnAccount = () => {
 
           <div className="w-full relative">
             <input className="text-gray-400 outline-none bg-transparent border border-gray-400 p-5 py-3.5 pr-12 rounded-full w-full leading-3" type="password" placeholder="Enter your password" />
-            <ShowPasswordIcon className={"absolute top-3.5 right-5 w-5 h-5 stroke-gray-600 stroke-[1.5px] fill-none"} />
+            <ShowPasswordIcon className={"absolute top-3.5 right-5 w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none"} />
           </div>
 
           <div className="w-full relative">
             <input className="text-gray-400 outline-none bg-transparent border border-gray-400 p-5 py-3.5 pr-12 rounded-full w-full leading-3" type="password" placeholder="Confirm your password" />
-            <ShowPasswordIcon className={"absolute top-3.5 right-5 w-5 h-5 stroke-gray-600 stroke-[1.5px] fill-none"} />
+            <ShowPasswordIcon className={"absolute top-3.5 right-5 w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none"} />
           </div>
         </div>
 
@@ -50,23 +50,23 @@ const CreateAnAccount = () => {
 
         <div className="flex justify-center items-center gap-5 my-5">
           <div className="w-12 h-12 flex justify-center items-center border border-black rounded-full">
-            <GoogleIcon className={"w-6 h-6 stroke-black fill-none"} />
+            <GoogleIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black fill-none"} />
           </div>
 
           <div className="w-12 h-12 flex justify-center items-center border border-black rounded-full">
-            <WindowsIcon className={"w-6 h-6 stroke-black fill-none"} />
+            <WindowsIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black fill-none"} />
           </div>
 
           <div className="w-12 h-12 flex justify-center items-center border border-black rounded-full">
-            <AppleIcon className={"w-6 h-6 stroke-black fill-none"} />
+            <AppleIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black fill-none"} />
           </div>
 
           <div className="w-12 h-12 flex justify-center items-center border border-black rounded-full">
-            <XIcon className={"w-6 h-6 stroke-black fill-none"} />
+            <XIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black fill-none"} />
           </div>
 
           <div className="w-12 h-12 flex justify-center items-center border border-black rounded-full">
-            <FacebookIcon className={"w-6 h-6 stroke-black fill-none"} />
+            <FacebookIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black fill-none"} />
           </div>
         </div>
 

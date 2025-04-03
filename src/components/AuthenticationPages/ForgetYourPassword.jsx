@@ -23,7 +23,7 @@ const ForgetYourPassword = () => {
 
         <p className="text-gray-600">
           Don’t have an account? <span className="text-black">Sign Up</span> or go back to
-          <span className="text-black">Sign in</span>
+          <span className="text-black"> Sign in</span>
         </p>
       </div>
     </div>
