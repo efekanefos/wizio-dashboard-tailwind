@@ -15,8 +15,8 @@ const CreateANewType = () => {
           <div className="flex justify-between items-center gap-5">
             <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4">Save & Exit</button>
 
-            <button className="w-7 h-7 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
-              <CloseIcon className={"w-4 h-4 stroke-black stroke-2"} />
+            <button className="w-9 h-9 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
+              <CloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black stroke-2"} />
             </button>
           </div>
         </div>
@@ -28,21 +28,21 @@ const CreateANewType = () => {
           {/* Property Types */}
           <div className="flex flex-wrap justify-center items-center gap-4 w-full mt-6">
             <div className="w-52 py-5 border-[0.5px] border-black rounded-3xl">
-              <HomeIcon className={"w-5 h-5 stroke-gray-600 stroke-[1.5px] fill-none mx-auto"} />
+              <HomeIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none mx-auto"} />
               <p className="text-gray-600 text-center">
                 House or <br /> Bungalow
               </p>
             </div>
 
             <div className="w-52 py-5 border-[0.5px] border-black rounded-3xl">
-              <TownhouseIcon className={"w-5 h-5 stroke-gray-600 stroke-[1.5px] fill-none mx-auto"} />
+              <TownhouseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none mx-auto"} />
               <p className="text-gray-600 text-center">
                 Semi-detached or <br /> Town house
               </p>
             </div>
 
             <div className="w-52 py-5 border-[0.5px] border-black rounded-3xl">
-              <ApartmentsIcon className={"w-5 h-5 fill-gray-600 mx-auto"} />
+              <ApartmentsIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-gray-600 mx-auto"} />
               <p className="text-gray-600 text-center">
                 Apartment or <br /> Block
               </p>

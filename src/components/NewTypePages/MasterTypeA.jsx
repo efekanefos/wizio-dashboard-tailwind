@@ -23,16 +23,16 @@ const MasterTypeA = () => {
             <p className="text-xl leading-7">Clients</p>
             <p className="text-xl leading-7">Team</p>
             <button className="bg-lime-500 flex justify-center items-center gap-2.5 rounded-full py-1.5 px-4">
-              <PortalIcon className={"w-5 h-5 fill-black"} />
+              <PortalIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black"} />
               <p>Portal</p>
             </button>
           </div>
 
           <div className="flex justify-start items-center gap-5">
-            <DarkModeIcon className={"w-5 h-5 stroke-black stroke-[1.5px] fill-none"} />
-            <GlobalIcon className={"w-5 h-5  fill-black"} />
-            <NotificationIcon className={"w-5 h-5  stroke-black fill-none "} />
-            <UserIcon className={"w-5 h-5 stroke-black fill-none "} />
+            <DarkModeIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black stroke-[1.5px] fill-none"} />
+            <GlobalIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4  fill-black"} />
+            <NotificationIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4  stroke-black fill-none "} />
+            <UserIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black fill-none "} />
           </div>
         </div>
         {/* Type Title Content */}
@@ -42,7 +42,7 @@ const MasterTypeA = () => {
           <div className="flex justify-start items-center gap-5">
             <button className="outline-none border-[0.5px] border-black rounded-full py-1 px-5 text-2xl">Date</button>
             <button className="w-9 h-9 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
-              <FileUploadIcon className={"w-4 h-4 stroke-black stroke-[1.5px] fill-none"} />
+              <FileUploadIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black stroke-[1.5px] fill-none"} />
             </button>
           </div>
         </div>
@@ -55,7 +55,7 @@ const MasterTypeA = () => {
             <div className="relative pr-6">
               <h2 className="font-bold text-5xl leading-10">Master Type A</h2>
               <p className="text-xl leading-4 mt-2">Flat</p>
-              <EditIcon className={"w-4 h-4 stroke-black fill-none absolute top-0 right-0"} />
+              <EditIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black fill-none absolute top-0 right-0"} />
             </div>
 
             <div>
@@ -70,7 +70,7 @@ const MasterTypeA = () => {
           <div className="col-span-1 p-5 bg-white w-full rounded-[40px]">
             <div className="flex justify-start items-center py-2 gap-5">
               <h4 className="leading-4 font-bold text-2xl">Details</h4>
-              <EditIcon className={"w-4 h-4 stroke-black fill-none"} />
+              <EditIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black fill-none"} />
             </div>
             <ul className="py-3 mt-5">
               <li className="flex justify-between items-center py-3 border-b-[0.25px] border-gray-400">
@@ -99,7 +99,7 @@ const MasterTypeA = () => {
           <div className="col-span-2 bg-white w-full rounded-[40px] p-6 min-h-[600px] relative">
             <div className="flex justify-start items-center gap-5">
               <h3 className="text-4xl leading-10 font-bold">Related unit</h3>
-              <PlusIcon className={"w-6 h-6 fill-black "} />
+              <PlusIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black "} />
             </div>
 
             <div className="text-center absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] w-full">
