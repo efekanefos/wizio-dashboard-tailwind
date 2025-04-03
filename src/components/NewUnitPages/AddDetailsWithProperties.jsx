@@ -21,8 +21,8 @@ const AddDetailsWithProperties = () => {
           <div className="flex justify-between items-center gap-5">
             <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4">Save & Exit</button>
 
-            <button className="w-7 h-7 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
-              <CloseIcon className={"w-4 h-4 stroke-black stroke-2"} />
+            <button className="w-9 h-9 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
+              <CloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black stroke-2"} />
             </button>
           </div>
         </div>
@@ -85,42 +85,42 @@ const AddDetailsWithProperties = () => {
           {/* Property Types */}
           <div className="flex flex-wrap justify-center items-center gap-4 w-full mt-5">
             <div className="w-48 h-28 flex flex-col justify-center items-center py-5 border-[0.5px] border-black rounded-3xl">
-              <GardenIcon className={"w-6 h-6 stroke-gray-600 stroke-[1.5px] fill-none mx-auto"} />
+              <GardenIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none mx-auto"} />
               <p className="text-gray-600 text-center leading-6">Garden</p>
             </div>
 
             <div className="w-48 h-28 flex flex-col justify-center items-center py-5 border-[0.5px] border-black rounded-3xl">
-              <BalconyIcon className={"w-6 h-6 stroke-gray-600 stroke-[1.5px] fill-none mx-auto"} />
+              <BalconyIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none mx-auto"} />
               <p className="text-gray-600 text-center leading-6">Balcony</p>
             </div>
 
             <div className="w-48 h-28 flex flex-col justify-center items-center py-5 border-[0.5px] border-black rounded-3xl">
-              <TerraceIcon className={"w-6 h-6 stroke-gray-600 stroke-[1.5px] fill-none mx-auto"} />
+              <TerraceIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none mx-auto"} />
               <p className="text-gray-600 text-center leading-6">Terrace</p>
             </div>
 
             <div className="w-48 h-28 flex flex-col justify-center items-center py-5 border-[0.5px] border-black rounded-3xl">
-              <GarageIcon className={"w-6 h-6 stroke-gray-600 stroke-[1.5px] fill-none mx-auto"} />
+              <GarageIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none mx-auto"} />
               <p className="text-gray-600 text-center leading-6">Garage</p>
             </div>
 
             <div className="w-48 h-28 flex flex-col justify-center items-center py-5 border-[0.5px] border-black rounded-3xl">
-              <DrivewayIcon className={"w-6 h-6 stroke-gray-600 stroke-[1.5px] fill-none mx-auto"} />
+              <DrivewayIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none mx-auto"} />
               <p className="text-gray-600 text-center leading-6">Driveway</p>
             </div>
 
             <div className="w-48 h-28 flex flex-col justify-center items-center py-5 border-[0.5px] border-black rounded-3xl">
-              <ParkingIcon className={"w-6 h-6 fill-gray-600 mx-auto"} />
+              <ParkingIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-gray-600 mx-auto"} />
               <p className="text-gray-600 text-center leading-6">Car Park</p>
             </div>
 
             <div className="w-48 h-28 flex flex-col justify-center items-center py-5 border-[0.5px] border-black rounded-3xl">
-              <PoolIcon className={"w-6 h-6 fill-gray-600 mx-auto"} />
+              <PoolIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-gray-600 mx-auto"} />
               <p className="text-gray-600 text-center leading-6">Pool</p>
             </div>
 
             <div className="w-48 h-28 flex flex-col justify-center items-center py-5 border-[0.5px] border-black rounded-3xl">
-              <PlusIcon className={"w-6 h-6 fill-gray-600"} />
+              <PlusIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-gray-600"} />
               <p className="text-gray-600 text-center leading-6">Add</p>
             </div>
           </div>

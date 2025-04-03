@@ -24,8 +24,8 @@ const AddDetails = () => {
           <div className="flex justify-between items-center gap-5">
             <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4">Save & Exit</button>
 
-            <button className="w-7 h-7 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
-              <CloseIcon className={"w-4 h-4 stroke-black stroke-2"} />
+            <button className="w-9 h-9 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
+              <CloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black stroke-2"} />
             </button>
           </div>
         </div>
@@ -57,7 +57,7 @@ const AddDetails = () => {
 
               <button onClick={handleFileUpload} className="flex justify-center items-center gap-2.5 px-4 py-2 border-[0.25px] border-black rounded-full">
                 <p className="leading-6 text-black">Upload</p>
-                <FileUploadIcon className={"w-5 h-5 stroke-black stroke-[1.5px] fill-none"} />
+                <FileUploadIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black stroke-[1.5px] fill-none"} />
                 {/* Gizli Dosya Input */}
                 <input id="fileInput" type="file" className="hidden" />
               </button>
@@ -66,16 +66,16 @@ const AddDetails = () => {
             <div className="flex justify-between items-center py-5 border-b-[0.25px] border-black">
               <p className="leading-6 text-black">First Floor</p>
               <div className="flex justify-start items-center gap-5">
-                <PdfIcon className={"w-5 h-6 fill-black"} />
-                <TrashIcon className={"w-3.5 h-3.5 stroke-black  fill-none"} />
+                <PdfIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black"} />
+                <TrashIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black  fill-none"} />
               </div>
             </div>
             {/* Row #4 */}
             <div className="flex justify-between items-center py-5 border-b-[0.25px] border-black">
               <p className="leading-6 text-black">Second Floor</p>
               <div className="flex justify-start items-center gap-5">
-                <PdfIcon className={"w-5 h-6 fill-black"} />
-                <TrashIcon className={"w-3.5 h-3.5 stroke-black  fill-none"} />
+                <PdfIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black"} />
+                <TrashIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black  fill-none"} />
               </div>
             </div>
           </div>
