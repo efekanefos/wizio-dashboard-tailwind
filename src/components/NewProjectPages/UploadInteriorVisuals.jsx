@@ -29,8 +29,8 @@ const UploadInteriorVisuals = () => {
           <div className="flex justify-between items-center gap-5">
             <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4">Save & Exit</button>
 
-            <button className="w-7 h-7 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
-              <CloseIcon className={"w-4 h-4 stroke-black stroke-2"} />
+            <button className="w-9 h-9 flex justify-center items-center outline-none border-[0.5px] border-black rounded-full">
+              <CloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black stroke-2"} />
             </button>
           </div>
         </div>
@@ -44,8 +44,8 @@ const UploadInteriorVisuals = () => {
           <div onClick={handleFileUpload} className="max-w-[632px] w-full border-[0.5px] border-dashed border-gray-600 min-h-40 flex justify-center items-center rounded-[40px] mt-5 cursor-pointer">
             <div className="text-center">
               <p className="text-gray-700">Drop files here or click to upload.</p>
-              <div className="w-7 h-7 rounded-full border-[0.5px] border-gray-600 flex justify-center items-center mx-auto mt-5">
-                <FileUploadIcon className={"w-4 h-4 stroke-gray-600 fill-none"} />
+              <div className="w-9 h-9 rounded-full border-[0.5px] border-gray-600 flex justify-center items-center mx-auto mt-5">
+                <FileUploadIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 fill-none"} />
               </div>
             </div>
           </div>
@@ -57,7 +57,7 @@ const UploadInteriorVisuals = () => {
             <div className="flex flex-col min-w-[215px]">
               <div className="relative rounded-3xl overflow-hidden mb-3">
                 <img src={livingroom_1} alt="livingroom" />
-                <MiniCloseIcon className={"w-4 h-4 absolute top-3.5 right-3.5"} />
+                <MiniCloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 absolute top-3.5 right-3.5"} />
               </div>
               <p className="text-black text-base text-center">Living room-01</p>
             </div>
@@ -65,7 +65,7 @@ const UploadInteriorVisuals = () => {
             <div className="flex flex-col min-w-[215px]">
               <div className="relative rounded-3xl overflow-hidden mb-3">
                 <img src={livingroom_2} alt="livingroom" />
-                <MiniCloseIcon className={"w-4 h-4 absolute top-3.5 right-3.5"} />
+                <MiniCloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 absolute top-3.5 right-3.5"} />
               </div>
               <p className="text-black text-base text-center">Living room-01</p>
             </div>
@@ -73,7 +73,7 @@ const UploadInteriorVisuals = () => {
             <div className="flex flex-col min-w-[215px]">
               <div className="relative rounded-3xl overflow-hidden mb-3">
                 <img src={livingroom_3} alt="livingroom" />
-                <MiniCloseIcon className={"w-4 h-4 absolute top-3.5 right-3.5"} />
+                <MiniCloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 absolute top-3.5 right-3.5"} />
               </div>
               <p className="text-black text-base text-center">Living room-01</p>
             </div>
@@ -81,7 +81,7 @@ const UploadInteriorVisuals = () => {
             <div className="flex flex-col min-w-[215px]">
               <div className="relative rounded-3xl overflow-hidden mb-3">
                 <img src={livingroom_4} alt="livingroom" />
-                <MiniCloseIcon className={"w-4 h-4 absolute top-3.5 right-3.5"} />
+                <MiniCloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 absolute top-3.5 right-3.5"} />
               </div>
               <p className="text-black text-base text-center">Living room-01</p>
             </div>
@@ -89,7 +89,7 @@ const UploadInteriorVisuals = () => {
             <div className="flex flex-col min-w-[215px]">
               <div className="relative rounded-3xl overflow-hidden mb-3">
                 <img src={livingroom_5} alt="livingroom" />
-                <MiniCloseIcon className={"w-4 h-4 absolute top-3.5 right-3.5"} />
+                <MiniCloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 absolute top-3.5 right-3.5"} />
               </div>
               <p className="text-black text-base text-center">Living room-01</p>
             </div>
@@ -97,7 +97,7 @@ const UploadInteriorVisuals = () => {
             <div className="flex flex-col min-w-[215px]">
               <div className="relative rounded-3xl overflow-hidden mb-3">
                 <img src={livingroom_6} alt="livingroom" />
-                <MiniCloseIcon className={"w-4 h-4 absolute top-3.5 right-3.5"} />
+                <MiniCloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 absolute top-3.5 right-3.5"} />
               </div>
               <p className="text-black text-base text-center">Living room-01</p>
             </div>
@@ -105,7 +105,7 @@ const UploadInteriorVisuals = () => {
             <div className="flex flex-col min-w-[215px]">
               <div className="relative rounded-3xl overflow-hidden mb-3">
                 <img src={livingroom_7} alt="livingroom" />
-                <MiniCloseIcon className={"w-4 h-4 absolute top-3.5 right-3.5"} />
+                <MiniCloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 absolute top-3.5 right-3.5"} />
               </div>
               <p className="text-black text-base text-center">Living room-01</p>
             </div>
@@ -113,7 +113,7 @@ const UploadInteriorVisuals = () => {
             <div className="flex flex-col min-w-[215px]">
               <div className="relative rounded-3xl overflow-hidden mb-3">
                 <img src={livingroom_8} alt="livingroom" />
-                <MiniCloseIcon className={"w-4 h-4 absolute top-3.5 right-3.5"} />
+                <MiniCloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 absolute top-3.5 right-3.5"} />
               </div>
               <p className="text-black text-base text-center">Living room-01</p>
             </div>
