@@ -56,7 +56,7 @@ const ClientAPage = () => {
         </div>
       </div>
       {/* Client Data */}
-      <div className="mt-20 flex justify-start items-start gap-12 max-md:gap-6 max-md:items-center max-sm:gap-3">
+      <div className="mt-20 flex justify-start items-center gap-12 max-md:gap-6 max-sm:gap-3">
         <div className="w-36 h-36 rounded-full bg-gray-400 flex justify-center items-center max-md:w-24 max-md:h-24">
           <UserIcon className="w-12 h-12 fill-black" />
         </div>
@@ -68,12 +68,12 @@ const ClientAPage = () => {
             <div className="w-5 h-5 rounded-full bg-lime-500"></div>
           </div>
           <div className="flex justify-start items-start gap-12 mt-6 max-md:gap-8">
-            <div className="flex flex-col gap-3 items-center max-md:gap-1">
+            <div className="flex flex-col gap-2 items-center max-md:gap-1">
               <CallIcon className="w-8 h-8 max-md:w-6 max-md:h-6 max-sm:w-5 max-sm:h-5 stroke-black stroke-2 fill-none" />
               <p className="text-xl leading-7 max-md:text-base">Call</p>
             </div>
 
-            <div className="flex flex-col gap-3 items-center max-md:gap-1">
+            <div className="flex flex-col gap-2 items-center max-md:gap-1">
               <EmailIcon className="w-8 h-8 max-md:w-6 max-md:h-6 max-sm:w-5 max-sm:h-5 stroke-black" />
               <p className="text-xl leading-7 max-md:text-base">Email</p>
             </div>
