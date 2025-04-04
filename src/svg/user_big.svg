@@ -1,10 +1,7 @@
-import React from "react";
-
-const UserIcon = ({ className }) => {
-  return (
-    <svg className={className} xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0.00 0.00 122.00 171.00">
-      <path
-        d="
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0.00 0.00 122.00 171.00">
+<path fill="#000000" d="
   M 101.50 42.76
   A 41.52 41.52 0.0 0 1 59.98 84.28
   A 41.52 41.52 0.0 0 1 18.46 42.76
@@ -17,9 +14,8 @@ const UserIcon = ({ className }) => {
   A 29.52 29.52 0.0 0 0 59.98 72.28
   A 29.52 29.52 0.0 0 0 89.50 42.76
   Z"
-      />
-      <path
-        d="
+/>
+<path fill="#000000" d="
   M 122.00 129.51
   L 122.00 130.64
   Q 121.76 131.30 122.00 131.96
@@ -39,9 +35,5 @@ const UserIcon = ({ className }) => {
   A 48.50 28.41 0.0 0 0 61.32 159.64
   A 48.50 28.41 0.0 0 0 109.82 131.23
   Z"
-      />
-    </svg>
-  );
-};
-
-export default UserIcon;
+/>
+</svg>

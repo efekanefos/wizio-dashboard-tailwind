@@ -51,11 +51,12 @@ const links = [
   { href: "/unit", label: "Unit" },
   { href: "/client", label: "Client" },
   { href: "/team", label: "Team" },
+  { href: "/client-a", label: "Client A" },
 ];
 
 function MenuList() {
   return (
-    <div style={{ scrollbarWidth: "none" }} className="fixed bottom-3 right-3 z-20 overflow-y-scroll max-h-screen pt-5 flex flex-col justify-start items-start gap-1 max-md:hidden">
+    <div style={{ scrollbarWidth: "none" }} className="hidden fixed bottom-3 right-3 z-20 overflow-y-scroll max-h-screen pt-5 flex flex-col justify-start items-start gap-1 max-md:hidden">
       {links.map((link, index) => (
         <a key={index} href={link.href} className="bg-white text-black px-4 py-2 rounded-[30px] text-[12px] hover:bg-black hover:text-white border border-black">
           {link.label}
