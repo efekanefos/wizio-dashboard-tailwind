@@ -83,14 +83,14 @@ const ClientAPage = () => {
         <div className="flex flex-col gap-5">
           <div>
             <h2 className="text-5xl leading-10 font-bold max-md:text-4xl max-sm:text-2xl">10</h2>
-            <p className="text-xl leading-4 mt-3 max-md:text-xl max-md:mt-0 max-sm:text-base">Presentation</p>
+            <p className="text-xl leading-4 mt-3 max-md:mt-0 max-sm:text-base">Presentation</p>
           </div>
           <div>
             <div className="flex justify-start items-start gap-1">
               <h2 className="text-5xl leading-10 font-bold max-md:text-4xl max-sm:text-2xl">3</h2>
               <FavouriteIcon className="w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-red-500 mt-1" />
             </div>
-            <p className="text-xl leading-4 mt-3 max-md:text-xl max-md:mt-0 max-sm:text-base">Favourites</p>
+            <p className="text-xl leading-4 mt-3 max-md:mt-0 max-sm:text-base">Favourites</p>
           </div>
         </div>
       </div>

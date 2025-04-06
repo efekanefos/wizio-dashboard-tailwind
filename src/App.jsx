@@ -48,6 +48,7 @@ import UnitPage from "./components/OverviewPages/UnitPage";
 import ClientPage from "./components/OverviewPages/ClientPage";
 import TeamPage from "./components/OverviewPages/TeamPage";
 import ClientAPage from "./components/OverviewPages/ClientAPage";
+import SalesRepPage from "./components/OverviewPages/SalesRepPage";
 
 function App() {
   return (
@@ -109,6 +110,7 @@ function App() {
         <Route path="/client" element={<ClientPage />} />
         <Route path="/team" element={<TeamPage />} />
         <Route path="/client-a" element={<ClientAPage />} />
+        <Route path="/sales-rep" element={<SalesRepPage />} />
       </Routes>
     </Router>
   );

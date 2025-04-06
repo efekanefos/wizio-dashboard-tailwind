@@ -52,6 +52,7 @@ const links = [
   { href: "/client", label: "Client" },
   { href: "/team", label: "Team" },
   { href: "/client-a", label: "Client A" },
+  { href: "/sales-rep", label: "Sales Rep" },
 ];
 
 function MenuList() {
