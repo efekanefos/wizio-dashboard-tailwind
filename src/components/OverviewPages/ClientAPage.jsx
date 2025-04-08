@@ -95,9 +95,9 @@ const ClientAPage = () => {
         </div>
       </div>
       {/* Client Details Container */}
-      <div className="flex justify-start items-start gap-5 mt-20 max-md:flex-col">
+      <div className="grid grid-cols-12 gap-5 mt-20 max-md:grid-cols-full">
         {/* Details Side */}
-        <div className="w-full max-w-[296px] flex flex-col gap-5 max-md:max-w-full">
+        <div className="col-span-4 w-full flex flex-col gap-5 max-md:col-span-full">
           <div className="w-full bg-white bg-opacity-75 rounded-[40px]">
             {/* List */}
             <div className="p-5 bg-white bg-opacity-75 w-full rounded-[40px] max-md:max-w-full">
@@ -201,7 +201,7 @@ const ClientAPage = () => {
         </div>
         {/* Activity and Notes Side */}
 
-        <div className="w-full max-w-full">
+        <div className="col-span-8 w-full max-w-full max-md:col-span-full">
           <div className="bg-white bg-opacity-75 rounded-[40px] p-5">
             <div className="flex justify-start items-center gap-5">
               <p className="text-4xl font-regular leading-10 text-gray-600">Activities</p>
@@ -230,12 +230,12 @@ const ClientAPage = () => {
             <div className="flex flex-col gap-5">
               <div className="flex justify-start items-start gap-4">
                 <img src={jon_winton} alt="jon_winton" />
-                <div className="flex flex-col">
+                <div className="flex flex-col w-full">
                   <div className="flex justify-start items-center gap-3 border-b border-gray-400">
                     <p className="leading-6">Jon Winton</p>
                     <p className="text-sm text-gray-600">13 Mar 2024</p>
                   </div>
-                  <p className="text-sm">
+                  <p className="text-sm max-w-xl">
                     Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus..
                   </p>
                 </div>
@@ -243,12 +243,12 @@ const ClientAPage = () => {
 
               <div className="flex justify-start items-start gap-4">
                 <img src={eric_young} alt="eric_young" />
-                <div className="flex flex-col">
+                <div className="flex flex-col w-full">
                   <div className="flex justify-start items-center gap-3 border-b border-gray-400">
                     <p className="leading-6">Eric Young</p>
                     <p className="text-sm text-gray-600">13 Mar 2024</p>
                   </div>
-                  <p className="text-sm">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit.</p>
+                  <p className="text-sm max-w-xl">Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit.</p>
                 </div>
               </div>
             </div>
@@ -265,12 +265,12 @@ const ClientAPage = () => {
             <div className="flex flex-col gap-5">
               <div className="flex justify-start items-start gap-4">
                 <img src={rebecca_harper} alt="rebecca_harper" />
-                <div className="flex flex-col">
+                <div className="flex flex-col w-full">
                   <div className="flex justify-start items-center gap-3 border-b border-gray-400">
                     <p className="leading-6">Rebecca Harper</p>
                     <p className="text-sm text-gray-600">13 Mar 2024</p>
                   </div>
-                  <p className="text-sm">
+                  <p className="text-sm max-w-xl">
                     Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis
                     imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante.
                   </p>
@@ -279,23 +279,23 @@ const ClientAPage = () => {
 
               <div className="flex justify-start items-start gap-4">
                 <img src={jon_winton} alt="jon_winton" />
-                <div className="flex flex-col">
+                <div className="flex flex-col w-full">
                   <div className="flex justify-start items-center gap-3 border-b border-gray-400">
                     <p className="leading-6">Jon Winton</p>
                     <p className="text-sm text-gray-600">13 Mar 2024</p>
                   </div>
-                  <p className="text-sm">Lorem ipsum dolor sit amet consectetur.</p>
+                  <p className="text-sm max-w-xl">Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
               </div>
 
               <div className="flex justify-start items-start gap-4">
                 <img src={rebecca_harper} alt="rebecca_harper" />
-                <div className="flex flex-col">
+                <div className="flex flex-col w-full">
                   <div className="flex justify-start items-center gap-3 border-b border-gray-400">
                     <p className="leading-6">Rebecca Harper </p>
                     <p className="text-sm text-gray-600">13 Mar 2024</p>
                   </div>
-                  <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. </p>
+                  <p className="text-sm max-w-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. </p>
                 </div>
               </div>
             </div>
@@ -304,7 +304,7 @@ const ClientAPage = () => {
           </div>
 
           {/* Presentations Container */}
-          <div className="relative p-6 bg-white bg-opacity-75 rounded-[40px] mt-5 min-h-[580px]">
+          <div className="relative p-6 bg-white bg-opacity-75 rounded-[40px] mt-5 min-h-[450px]">
             <h3 className="text-4xl leading-10 font-bold max-md:text-2xl max-sm:text-xl">Presentations</h3>
 
             <div className="text-center absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] w-full">

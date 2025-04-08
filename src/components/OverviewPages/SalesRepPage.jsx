@@ -94,9 +94,9 @@ const SalesRepPage = () => {
         </div>
       </div>
       {/* Client Details Container */}
-      <div className="grid grid-cols-[296px_1fr] gap-5 mt-20 max-md:grid-cols-1">
+      <div className="grid grid-cols-12 gap-5 mt-20 max-md:grid-cols-full">
         {/* Details Side */}
-        <div className="w-full h-full min-h-full max-w-[296px] flex flex-col gap-5 max-md:max-w-full">
+        <div className="col-span-4 w-full h-full min-h-full flex flex-col gap-5 max-md:col-span-full">
           <div className="w-full bg-white bg-opacity-75 rounded-[40px]">
             {/* List */}
             <div className="p-5 bg-white bg-opacity-75 w-full rounded-[40px] max-md:max-w-full">
@@ -176,7 +176,7 @@ const SalesRepPage = () => {
           </div>
         </div>
         {/* Activity and Notes Side */}
-        <div className="w-full h-full max-w-full min-h-full">
+        <div className="col-span-8 w-full h-full max-w-full min-h-full max-md:col-span-full">
           <div className="w-full bg-white bg-opacity-75 rounded-[40px] p-5 flex flex-col gap-5">
             {/* Title */}
             <div className="flex justify-start items-center gap-5">
