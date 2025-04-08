@@ -37,7 +37,7 @@ const ManageRules = () => {
 
               <label className={`relative w-10 h-3.5 rounded-full cursor-pointer transition-colors duration-300 ${isChecked ? "bg-gray-400" : "bg-gray-400"}`}>
                 <input type="checkbox" className="hidden" checked={isChecked} onChange={handleCheckboxChange} />
-                <span className={`absolute w-5 h-5 top-[7px] translate-y-[-50%] left-0 bg-gray-600 rounded-full shadow-md transform transition-transform duration-300 ${isChecked ? "translate-x-[22px]" : "translate-x-0"}`}></span>
+                <span className={`absolute w-5 h-5 top-[7px] translate-y-[-50%] left-0  rounded-full shadow-md transform transition-transform duration-300 ${isChecked ? "translate-x-[22px] bg-black" : "translate-x-0 bg-gray-600"}`}></span>
               </label>
             </div>
 
@@ -46,7 +46,7 @@ const ManageRules = () => {
 
               <label className={`relative w-10 h-3.5 rounded-full cursor-pointer transition-colors duration-300 ${isChecked ? "bg-gray-400" : "bg-gray-400"}`}>
                 <input type="checkbox" className="hidden" checked={isChecked} onChange={handleCheckboxChange} />
-                <span className={`absolute w-5 h-5 top-[7px] translate-y-[-50%] left-0 bg-gray-600 rounded-full shadow-md transform transition-transform duration-300 ${isChecked ? "translate-x-[22px]" : "translate-x-0"}`}></span>
+                <span className={`absolute w-5 h-5 top-[7px] translate-y-[-50%] left-0  rounded-full shadow-md transform transition-transform duration-300 ${isChecked ? "translate-x-[22px] bg-black" : "translate-x-0 bg-gray-600"}`}></span>
               </label>
             </div>
 
@@ -55,7 +55,7 @@ const ManageRules = () => {
 
               <label className={`relative w-10 h-3.5 rounded-full cursor-pointer transition-colors duration-300 ${isChecked ? "bg-gray-400" : "bg-gray-400"}`}>
                 <input type="checkbox" className="hidden" checked={isChecked} onChange={handleCheckboxChange} />
-                <span className={`absolute w-5 h-5 top-[7px] translate-y-[-50%] left-0 bg-gray-600 rounded-full shadow-md transform transition-transform duration-300 ${isChecked ? "translate-x-[22px]" : "translate-x-0"}`}></span>
+                <span className={`absolute w-5 h-5 top-[7px] translate-y-[-50%] left-0  rounded-full shadow-md transform transition-transform duration-300 ${isChecked ? "translate-x-[22px] bg-black" : "translate-x-0 bg-gray-600"}`}></span>
               </label>
             </div>
 
@@ -64,7 +64,7 @@ const ManageRules = () => {
 
               <label className={`relative w-10 h-3.5 rounded-full cursor-pointer transition-colors duration-300 ${isChecked ? "bg-gray-400" : "bg-gray-400"}`}>
                 <input type="checkbox" className="hidden" checked={isChecked} onChange={handleCheckboxChange} />
-                <span className={`absolute w-5 h-5 top-[7px] translate-y-[-50%] left-0 bg-gray-600 rounded-full shadow-md transform transition-transform duration-300 ${isChecked ? "translate-x-[22px]" : "translate-x-0"}`}></span>
+                <span className={`absolute w-5 h-5 top-[7px] translate-y-[-50%] left-0  rounded-full shadow-md transform transition-transform duration-300 ${isChecked ? "translate-x-[22px] bg-black" : "translate-x-0 bg-gray-600"}`}></span>
               </label>
             </div>
           </div>
