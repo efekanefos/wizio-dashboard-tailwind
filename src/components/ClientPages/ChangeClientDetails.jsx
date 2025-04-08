@@ -29,7 +29,7 @@ const ChangeClientDetails = () => {
           {/* Profile Image */}
 
           <div className="relative flex justify-center items-center bg-gray-400 rounded-full w-36 h-36 my-5">
-            <UserIcon className={"w-12 h-12 stroke-black fill-none"} />
+            <UserIcon className={"w-12 h-12 fill-black"} />
             <EditIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black fill-none absolute top-0 -right-1"} />
           </div>
 

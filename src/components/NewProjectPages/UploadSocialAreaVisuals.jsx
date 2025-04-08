@@ -57,7 +57,10 @@ const UploadSocialAreaVisuals = () => {
             <div className="flex flex-col min-w-[215px]">
               <div className="relative rounded-3xl overflow-hidden mb-3">
                 <img src={livingroom_1} alt="livingroom" />
-                <MiniCloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 absolute top-3.5 right-3.5"} />
+                <div className="flex justify-center items-center absolute top-3.5 right-3.5">
+                  <MiniCloseIcon className={" w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4  z-10"} />
+                  <div className="bg-white w-4 h-4 rounded-full z-0 absolute"></div>
+                </div>
               </div>
               <p className="text-black text-base text-center">Living room-01</p>
             </div>
@@ -65,7 +68,10 @@ const UploadSocialAreaVisuals = () => {
             <div className="flex flex-col min-w-[215px]">
               <div className="relative rounded-3xl overflow-hidden mb-3">
                 <img src={livingroom_2} alt="livingroom" />
-                <MiniCloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 absolute top-3.5 right-3.5"} />
+                <div className="flex justify-center items-center absolute top-3.5 right-3.5">
+                  <MiniCloseIcon className={" w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4  z-10"} />
+                  <div className="bg-white w-4 h-4 rounded-full z-0 absolute"></div>
+                </div>
               </div>
               <p className="text-black text-base text-center">Living room-01</p>
             </div>
@@ -73,7 +79,10 @@ const UploadSocialAreaVisuals = () => {
             <div className="flex flex-col min-w-[215px]">
               <div className="relative rounded-3xl overflow-hidden mb-3">
                 <img src={livingroom_3} alt="livingroom" />
-                <MiniCloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 absolute top-3.5 right-3.5"} />
+                <div className="flex justify-center items-center absolute top-3.5 right-3.5">
+                  <MiniCloseIcon className={" w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4  z-10"} />
+                  <div className="bg-white w-4 h-4 rounded-full z-0 absolute"></div>
+                </div>
               </div>
               <p className="text-black text-base text-center">Living room-01</p>
             </div>
@@ -81,7 +90,10 @@ const UploadSocialAreaVisuals = () => {
             <div className="flex flex-col min-w-[215px]">
               <div className="relative rounded-3xl overflow-hidden mb-3">
                 <img src={livingroom_4} alt="livingroom" />
-                <MiniCloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 absolute top-3.5 right-3.5"} />
+                <div className="flex justify-center items-center absolute top-3.5 right-3.5">
+                  <MiniCloseIcon className={" w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4  z-10"} />
+                  <div className="bg-white w-4 h-4 rounded-full z-0 absolute"></div>
+                </div>
               </div>
               <p className="text-black text-base text-center">Living room-01</p>
             </div>
@@ -89,7 +101,10 @@ const UploadSocialAreaVisuals = () => {
             <div className="flex flex-col min-w-[215px]">
               <div className="relative rounded-3xl overflow-hidden mb-3">
                 <img src={livingroom_5} alt="livingroom" />
-                <MiniCloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 absolute top-3.5 right-3.5"} />
+                <div className="flex justify-center items-center absolute top-3.5 right-3.5">
+                  <MiniCloseIcon className={" w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4  z-10"} />
+                  <div className="bg-white w-4 h-4 rounded-full z-0 absolute"></div>
+                </div>
               </div>
               <p className="text-black text-base text-center">Living room-01</p>
             </div>
@@ -97,7 +112,10 @@ const UploadSocialAreaVisuals = () => {
             <div className="flex flex-col min-w-[215px]">
               <div className="relative rounded-3xl overflow-hidden mb-3">
                 <img src={livingroom_6} alt="livingroom" />
-                <MiniCloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 absolute top-3.5 right-3.5"} />
+                <div className="flex justify-center items-center absolute top-3.5 right-3.5">
+                  <MiniCloseIcon className={" w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4  z-10"} />
+                  <div className="bg-white w-4 h-4 rounded-full z-0 absolute"></div>
+                </div>
               </div>
               <p className="text-black text-base text-center">Living room-01</p>
             </div>
@@ -105,7 +123,10 @@ const UploadSocialAreaVisuals = () => {
             <div className="flex flex-col min-w-[215px]">
               <div className="relative rounded-3xl overflow-hidden mb-3">
                 <img src={livingroom_7} alt="livingroom" />
-                <MiniCloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 absolute top-3.5 right-3.5"} />
+                <div className="flex justify-center items-center absolute top-3.5 right-3.5">
+                  <MiniCloseIcon className={" w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4  z-10"} />
+                  <div className="bg-white w-4 h-4 rounded-full z-0 absolute"></div>
+                </div>
               </div>
               <p className="text-black text-base text-center">Living room-01</p>
             </div>
@@ -113,7 +134,10 @@ const UploadSocialAreaVisuals = () => {
             <div className="flex flex-col min-w-[215px]">
               <div className="relative rounded-3xl overflow-hidden mb-3">
                 <img src={livingroom_8} alt="livingroom" />
-                <MiniCloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 absolute top-3.5 right-3.5"} />
+                <div className="flex justify-center items-center absolute top-3.5 right-3.5">
+                  <MiniCloseIcon className={" w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4  z-10"} />
+                  <div className="bg-white w-4 h-4 rounded-full z-0 absolute"></div>
+                </div>
               </div>
               <p className="text-black text-base text-center">Living room-01</p>
             </div>

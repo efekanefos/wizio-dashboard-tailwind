@@ -34,7 +34,10 @@ const UploadBlockExteriorVisual = () => {
 
           <div className="relative w-48 h-32 rounded-[32px] overflow-hidden my-12">
             <img className="w-full h-full object-cover" src={uploadBlockExteriorVisual} alt="livingroom" />
-            <MiniCloseIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 absolute top-3.5 right-3.5"} />
+            <div className="flex justify-center items-center absolute top-3.5 right-3.5">
+              <MiniCloseIcon className={" w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4  z-10"} />
+              <div className="bg-white w-4 h-4 rounded-full z-0 absolute"></div>
+            </div>
           </div>
 
           <div className="flex justify-between items-center w-full py-3.5">
