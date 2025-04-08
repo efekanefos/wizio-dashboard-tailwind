@@ -38,7 +38,7 @@ const MasterTypeA = () => {
         <MobileHamburgerIcon className={"hidden max-md:block w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black stroke-2"} />
       </div>
       {/* Type Title Content */}
-      <div className="flex justify-between items-center w-full my-5 px-12 max-xl:px-5 max-md:px-4 max-sm:px-3">
+      <div className="flex justify-between items-center w-full my-5">
         <h3 className="text-4xl font-bold leading-10 max-md:text-xl">Master Type A</h3>
 
         <div className="flex justify-start items-center gap-5">
