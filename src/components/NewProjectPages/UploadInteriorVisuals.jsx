@@ -41,12 +41,13 @@ const UploadInteriorVisuals = () => {
           <h3 className="font-bold text-4xl text-center">Upload Interior Visuals</h3>
 
           {/* File Input */}
-          <div onClick={handleFileUpload} className="max-w-[632px] w-full border-[0.5px] border-dashed border-gray-600 min-h-40 flex justify-center items-center rounded-[40px] mt-5 cursor-pointer">
+          <div onClick={handleFileUpload} className="w-full border-[0.5px] border-dashed border-gray-600 min-h-40 flex justify-center items-center rounded-[40px] my-5 cursor-pointer relative">
             <div className="text-center">
               <p className="text-gray-700">Drop files here or click to upload.</p>
               <div className="w-9 h-9 rounded-full border-[0.5px] border-gray-600 flex justify-center items-center mx-auto mt-5">
                 <FileUploadIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 fill-none"} />
               </div>
+              <p className="text-gray-700 text-sm absolute bottom-1 left-1/2 translate-x-[-50%]">Maximum file size: 5mb.</p>
             </div>
           </div>
           {/* Gizli Dosya Input */}
@@ -156,8 +157,8 @@ const UploadInteriorVisuals = () => {
             <div className="w-full h-1 bg-white"></div>
           </div>
           <div className="w-full flex justify-between items-center py-3">
-            <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4">Back</button>
-            <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4">Next</button>
+            <button className="outline-none border-[0.5px] border-black rounded-full py-1.5 px-6">Back</button>
+            <button className="outline-none border-[0.5px] border-black rounded-full py-1.5 px-6">Next</button>
           </div>
         </div>
       </div>

@@ -230,7 +230,7 @@ const ClientAPage = () => {
             <div className="flex flex-col gap-5">
               <div className="flex justify-start items-start gap-4">
                 <img src={jon_winton} alt="jon_winton" />
-                <div className="flex flex-col w-full">
+                <div className="flex flex-col">
                   <div className="flex justify-start items-center gap-3 border-b border-gray-400">
                     <p className="leading-6">Jon Winton</p>
                     <p className="text-sm text-gray-600">13 Mar 2024</p>
@@ -243,7 +243,7 @@ const ClientAPage = () => {
 
               <div className="flex justify-start items-start gap-4">
                 <img src={eric_young} alt="eric_young" />
-                <div className="flex flex-col w-full">
+                <div className="flex flex-col">
                   <div className="flex justify-start items-center gap-3 border-b border-gray-400">
                     <p className="leading-6">Eric Young</p>
                     <p className="text-sm text-gray-600">13 Mar 2024</p>
@@ -265,7 +265,7 @@ const ClientAPage = () => {
             <div className="flex flex-col gap-5">
               <div className="flex justify-start items-start gap-4">
                 <img src={rebecca_harper} alt="rebecca_harper" />
-                <div className="flex flex-col w-full">
+                <div className="flex flex-col">
                   <div className="flex justify-start items-center gap-3 border-b border-gray-400">
                     <p className="leading-6">Rebecca Harper</p>
                     <p className="text-sm text-gray-600">13 Mar 2024</p>
@@ -279,7 +279,7 @@ const ClientAPage = () => {
 
               <div className="flex justify-start items-start gap-4">
                 <img src={jon_winton} alt="jon_winton" />
-                <div className="flex flex-col w-full">
+                <div className="flex flex-col">
                   <div className="flex justify-start items-center gap-3 border-b border-gray-400">
                     <p className="leading-6">Jon Winton</p>
                     <p className="text-sm text-gray-600">13 Mar 2024</p>
@@ -290,7 +290,7 @@ const ClientAPage = () => {
 
               <div className="flex justify-start items-start gap-4">
                 <img src={rebecca_harper} alt="rebecca_harper" />
-                <div className="flex flex-col w-full">
+                <div className="flex flex-col">
                   <div className="flex justify-start items-center gap-3 border-b border-gray-400">
                     <p className="leading-6">Rebecca Harper </p>
                     <p className="text-sm text-gray-600">13 Mar 2024</p>

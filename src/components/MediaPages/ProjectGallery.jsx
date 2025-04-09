@@ -26,37 +26,37 @@ const ProjectGallery = () => {
         </div>
 
         {/* Main Content */}
-        <div className="flex flex-col justify-center items-center w-full max-w-[632px] mx-auto mt-3">
+        <div className="flex flex-col justify-center items-center w-full max-w-lg mx-auto mt-3">
           {/* Title */}
           <h3 className="font-bold text-4xl text-center leading-10">Project Gallery</h3>
 
           {/* Property Types */}
           <div className="grid grid-cols-3 place-items-center justify-center items-center gap-4 w-full mt-5 max-md:flex max-md:flex-wrap">
-            <div className="w-48 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
+            <div className="w-40 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
               <HomeIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none"} />
               <p className="text-gray-600 text-center leading-6">Exterior Visuals</p>
             </div>
-            <div className="w-48 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
+            <div className="w-40 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
               <FurnitureIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none"} />
               <p className="text-gray-600 text-center leading-6">Exterior Visuals</p>
             </div>
-            <div className="w-48 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
+            <div className="w-40 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
               <SocialAreaIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none"} />
               <p className="text-gray-600 text-center leading-6">Social Area Visuals</p>
             </div>
-            <div className="w-48 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
+            <div className="w-40 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
               <Tour360Icon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none"} />
               <p className="text-gray-600 text-center leading-6">360 Tours</p>
             </div>
-            <div className="w-48 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
+            <div className="w-40 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
               <BrochureIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 fill-none"} />
               <p className="text-gray-600 text-center leading-6">Brochures</p>
             </div>
-            <div className="w-48 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
+            <div className="w-40 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
               <VideoIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 fill-none"} />
               <p className="text-gray-600 text-center leading-6">Videos</p>
             </div>
-            <div className="w-48 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
+            <div className="w-40 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
               <PlusIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-gray-600"} />
               <p className="text-gray-600 text-center leading-6">Add New</p>
             </div>
@@ -73,8 +73,8 @@ const ProjectGallery = () => {
             <div className="w-full h-1 bg-white"></div>
           </div>
           <div className="w-full flex justify-between items-center py-3">
-            <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4">Back</button>
-            <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4">Next</button>
+            <button className="outline-none border-[0.5px] border-black rounded-full py-1.5 px-6">Back</button>
+            <button className="outline-none border-[0.5px] border-black rounded-full py-1.5 px-6">Next</button>
           </div>
         </div>
       </div>

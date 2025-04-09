@@ -21,7 +21,7 @@ const NameThisBlock = () => {
         </div>
 
         {/* Main Content */}
-        <div className="flex flex-col justify-center items-center w-full max-w-[632px] mx-auto h-screen">
+        <div className="flex flex-col justify-center items-center w-full max-w-lg mx-auto h-screen">
           {/* Title */}
           <h3 className="font-bold text-4xl text-center leading-10">Name This Block</h3>
 
@@ -36,7 +36,6 @@ const NameThisBlock = () => {
                 <option value="Master">Choose a Master Type</option>
               </select>
               <DownArrowIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black fill-none absolute right-4 top-3.5"} />
-              <p className="text-gray-400 text-sm font-normal ml-5 mt-2">How to find coordinates</p>
             </div>
           </div>
         </div>
@@ -51,8 +50,8 @@ const NameThisBlock = () => {
             <div className="w-full h-1 bg-white"></div>
           </div>
           <div className="w-full flex justify-between items-center py-3">
-            <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4">Back</button>
-            <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4">Next</button>
+            <button className="outline-none border-[0.5px] border-black rounded-full py-1.5 px-6">Back</button>
+            <button className="outline-none border-[0.5px] border-black rounded-full py-1.5 px-6">Next</button>
           </div>
         </div>
       </div>

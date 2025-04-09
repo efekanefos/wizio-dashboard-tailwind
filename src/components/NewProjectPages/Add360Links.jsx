@@ -20,7 +20,7 @@ const Add360Links = () => {
         </div>
 
         {/* Main Content */}
-        <div className="flex flex-col justify-center items-center w-full  mx-auto">
+        <div className="flex flex-col justify-center items-center w-full max-w-lg mx-auto">
           {/* Title */}
           <h3 className="font-bold text-4xl text-center">Add 360 Links</h3>
 
@@ -45,8 +45,8 @@ const Add360Links = () => {
             <div className="w-full h-1 bg-white"></div>
           </div>
           <div className="w-full flex justify-between items-center py-3">
-            <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4">Back</button>
-            <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4">Next</button>
+            <button className="outline-none border-[0.5px] border-black rounded-full py-1.5 px-6">Back</button>
+            <button className="outline-none border-[0.5px] border-black rounded-full py-1.5 px-6">Next</button>
           </div>
         </div>
       </div>

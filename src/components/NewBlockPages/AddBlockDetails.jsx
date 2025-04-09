@@ -21,7 +21,7 @@ const AddBlockDetails = () => {
         </div>
 
         {/* Main Content */}
-        <div className="flex flex-col justify-center items-center w-full max-w-[632px] mx-auto h-screen">
+        <div className="flex flex-col justify-center items-center w-full max-w-lg mx-auto h-screen">
           {/* Title */}
           <h3 className="font-bold text-4xl text-center leading-10">Add Details</h3>
           <p className="leading-6">Add number of floor on this Block</p>
@@ -75,7 +75,7 @@ const AddBlockDetails = () => {
               </button>
             </div>
           </div>
-          <p className="w-full text-left text-gray-400 text-sm font-normal ml-5 mt-5">*Unit content will be added after creating the type </p>
+          <p className="w-full text-left text-gray-400 text-sm font-normal ml-5 mt-5">*Unit content will be added after creating the types</p>
         </div>
 
         {/* Below Content */}
@@ -88,8 +88,8 @@ const AddBlockDetails = () => {
             <div className="w-full h-1 bg-white"></div>
           </div>
           <div className="w-full flex justify-between items-center py-3">
-            <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4">Back</button>
-            <button className="outline-none border-[0.5px] border-black rounded-full py-0.5 px-4">Next</button>
+            <button className="outline-none border-[0.5px] border-black rounded-full py-1.5 px-6">Back</button>
+            <button className="outline-none border-[0.5px] border-black rounded-full py-1.5 px-6">Next</button>
           </div>
         </div>
       </div>

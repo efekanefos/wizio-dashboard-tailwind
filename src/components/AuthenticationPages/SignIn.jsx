@@ -10,7 +10,7 @@ import FacebookIcon from "../../svg/FacebookIcon";
 const SignIn = () => {
   return (
     <div className="bg-[#E5E7EB] h-screen flex justify-center items-center w-full py-5 max-2xl:px-12 max-xl:px-5 max-md:px-4 max-sm:px-3">
-      <div className="flex flex-col justify-center items-center w-full max-w-[632px] mx-auto">
+      <div className="flex flex-col justify-center items-center w-full max-w-lg mx-auto">
         {/* Logo and Title */}
         <div className="mb-12">
           <ProjectLogo className={"w-16 h-12 fill-black"} />
@@ -39,7 +39,7 @@ const SignIn = () => {
           <p className="text-gray-600">Forget Password?</p>
         </div>
 
-        <button className="text-white bg-black w-full py-1.5 rounded-full">Sign in</button>
+        <button className="text-white bg-black w-full py-3 rounded-full">Sign in</button>
 
         {/* Social Media Buttons */}
 

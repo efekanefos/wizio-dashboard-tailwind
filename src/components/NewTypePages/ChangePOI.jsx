@@ -21,7 +21,7 @@ const ChangePOI = () => {
         </div>
 
         {/* Main Content */}
-        <div className="flex flex-col justify-center items-center w-full max-w-[632px] mx-auto h-screen">
+        <div className="flex flex-col justify-center items-center w-full max-w-lg mx-auto h-screen">
           {/* Title */}
           <h3 className="font-bold text-4xl text-center leading-10">Change Point of Interest</h3>
 
@@ -40,7 +40,7 @@ const ChangePOI = () => {
 
             <div>
               <input value="50.721995598691436, -1.871064833848868" readOnly className="text-black outline-none bg-transparent border border-gray-400 p-5 py-3.5 rounded-full w-full leading-3" type="text" />
-              <p className="text-gray-400 text-sm font-normal ml-5 mt-2">Hint</p>
+              <p className="text-gray-400 text-sm font-normal ml-5 mt-2">How to find POI coordinates</p>
             </div>
           </div>
         </div>

@@ -24,7 +24,7 @@ const ManageRules = () => {
           </div>
         </div>
         {/* Main Content */}
-        <div className="flex flex-col justify-center items-center w-full max-w-[632px] mx-auto h-screen">
+        <div className="flex flex-col justify-center items-center w-full max-w-lg mx-auto h-screen">
           {/* Title */}
           <h3 className="font-bold text-4xl text-center">Assign to</h3>
 

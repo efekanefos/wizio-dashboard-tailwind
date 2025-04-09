@@ -22,7 +22,7 @@ const EditTeamMemberDetails = () => {
           </div>
         </div>
         {/* Main Content */}
-        <div className="flex flex-col justify-center items-center w-full max-w-[632px] mx-auto h-screen">
+        <div className="flex flex-col justify-center items-center w-full max-w-lg mx-auto h-screen">
           <div className="relative flex justify-center items-center my-5">
             <div className="rounded-full overflow-hidden">
               <img src={teamMemberImg} alt="teamMemberImg" />
