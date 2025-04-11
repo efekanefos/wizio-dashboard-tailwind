@@ -49,6 +49,9 @@ import ClientPage from "./components/OverviewPages/ClientPage";
 import TeamPage from "./components/OverviewPages/TeamPage";
 import ClientAPage from "./components/OverviewPages/ClientAPage";
 import SalesRepPage from "./components/OverviewPages/SalesRepPage";
+import Settings from "./components/OverviewPages/Settings";
+import SettingsCompany from "./components/OverviewPages/SettingsCompany";
+import SettingsOther from "./components/OverviewPages/SettingsOther";
 
 function App() {
   return (
@@ -111,6 +114,9 @@ function App() {
         <Route path="/team" element={<TeamPage />} />
         <Route path="/client-a" element={<ClientAPage />} />
         <Route path="/sales-rep" element={<SalesRepPage />} />
+        <Route path="/settings" element={<Settings />} />
+        <Route path="/settings-company" element={<SettingsCompany />} />
+        <Route path="/settings-other" element={<SettingsOther />} />
       </Routes>
     </Router>
   );
