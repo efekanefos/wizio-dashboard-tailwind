@@ -28,13 +28,13 @@ const AddDetailsWithProperties = () => {
         </div>
 
         {/* Main Content */}
-        <div className="flex flex-col justify-center items-center w-full max-w-lg mx-auto mt-3">
+        <div className="flex flex-col justify-center items-center w-full  mx-auto mt-3">
           {/* Title */}
           <h3 className="font-bold text-4xl text-center leading-10">Add Details</h3>
 
           {/* Rows */}
 
-          <div className="w-full">
+          <div className="w-full max-w-lg">
             {/* Row #1 */}
             <div className="flex justify-between items-center py-5 border-b-[0.25px] border-black">
               <p className="leading-6 text-black">Number of Bedrooms</p>
@@ -83,7 +83,7 @@ const AddDetailsWithProperties = () => {
           </div>
           <button className="text-white bg-black w-fit py-0.5 px-4 rounded-full mt-5">Add features</button>
           {/* Property Types */}
-          <div className="flex flex-wrap justify-center items-center gap-4 w-full mt-5">
+          <div className="max-w-4xl flex flex-wrap justify-center items-center gap-4 w-full mt-5">
             <div className="w-48 h-28 flex flex-col justify-center items-center py-5 border-[0.5px] border-black rounded-3xl">
               <GardenIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none mx-auto"} />
               <p className="text-gray-600 text-center leading-6">Garden</p>

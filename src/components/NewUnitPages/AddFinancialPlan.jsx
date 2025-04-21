@@ -40,7 +40,9 @@ const AddFinancialPlan = () => {
           {/* File Input */}
           <div onClick={handleFileUpload} className="w-full border-[0.5px] border-dashed border-gray-600 min-h-40 flex justify-center items-center rounded-[40px] my-5 cursor-pointer relative">
             <div className="text-center">
-              <p className="text-gray-700">Please drop your Financial table in PDF format here or click to upload.</p>
+              <p className="text-gray-700">
+                Please drop your Financial table in PDF format here <br /> or click to upload.
+              </p>
               <div className="w-9 h-9 rounded-full border-[0.5px] border-gray-600 flex justify-center items-center mx-auto mt-5">
                 <FileUploadIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 fill-none"} />
               </div>
@@ -55,7 +57,7 @@ const AddFinancialPlan = () => {
 
             <label className={`relative w-10 h-3.5 rounded-full cursor-pointer transition-colors duration-300 ${isChecked ? "bg-gray-400" : "bg-gray-400"}`}>
               <input type="checkbox" className="hidden" checked={isChecked} onChange={handleCheckboxChange} />
-              <span className={`absolute w-5 h-5 top-[7px] translate-y-[-50%] left-0  rounded-full shadow-md transform transition-transform duration-300 ${isChecked ? "translate-x-[22px] bg-black" : "translate-x-0 bg-gray-600"}`}></span>
+              <span className={`absolute w-5 h-5 top-[7px] translate-y-[-50%] left-0  rounded-full shadow-md transform transition-transform duration-300 ${isChecked ? "translate-x-[22px] bg-black" : "translate-x-0 bg-gray-500"}`}></span>
             </label>
           </div>
         </div>
