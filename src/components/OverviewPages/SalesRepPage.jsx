@@ -194,11 +194,10 @@ const SalesRepPage = () => {
                   <div className="w-5 h-5 bg-gray-600 rounded-full m-2.5"></div>
                   <div className="w-full">
                     <div className="flex justify-between items-center">
-                      <p className="leading-3 max-md:leading-5">Client Added Unit to Favourite</p>
+                      <p className="leading-3 max-md:leading-5 border-b border-gray-400 pb-1.5">Client Added Unit to Favourite</p>
                       <p className="text-sm text-gray-600 leading-3">13 Mar 2024</p>
                     </div>
-                    <div className="bg-gray-400 h-px w-full my-1.5"></div>
-                    <p className="leading-3 max-md:leading-5">Through website</p>
+                    <p className="leading-3 max-md:leading-5 pt-1.5">Through website</p>
                   </div>
                 </li>
 
@@ -206,11 +205,11 @@ const SalesRepPage = () => {
                   <div className="w-5 h-5 bg-gray-600 rounded-full m-2.5"></div>
                   <div className="w-full">
                     <div className="flex justify-between items-center">
-                      <p className="leading-3 max-md:leading-5">Unit 101 Shown to the clinet </p>
+                      <p className="leading-3 max-md:leading-5 border-b border-gray-400 pb-1.5">Unit 101 Shown to the clinet </p>
                       <p className="text-sm text-gray-600 leading-3">13 Mar 2024</p>
                     </div>
-                    <div className="bg-gray-400 h-px w-full my-1.5"></div>
-                    <p className="leading-3 max-md:leading-5">By Sales Rep John Winton</p>
+
+                    <p className="leading-3 max-md:leading-5 pt-1.5">By Sales Rep John Winton</p>
                   </div>
                 </li>
 
@@ -218,11 +217,11 @@ const SalesRepPage = () => {
                   <div className="w-5 h-5 bg-gray-600 rounded-full m-2.5"></div>
                   <div className="w-full">
                     <div className="flex justify-between items-center">
-                      <p className="leading-3 max-md:leading-5">Online Presentation</p>
+                      <p className="leading-3 max-md:leading-5 border-b border-gray-400 pb-1.5">Online Presentation</p>
                       <p className="text-sm text-gray-600 leading-3">13 Mar 2024</p>
                     </div>
-                    <div className="bg-gray-400 h-px w-full my-1.5"></div>
-                    <p className="leading-3 max-md:leading-5">By Sales Rep John Winton</p>
+
+                    <p className="leading-3 max-md:leading-5 pt-1.5">By Sales Rep John Winton</p>
                   </div>
                 </li>
 
@@ -230,11 +229,11 @@ const SalesRepPage = () => {
                   <div className="w-5 h-5 bg-gray-600 rounded-full m-2.5"></div>
                   <div className="w-full">
                     <div className="flex justify-between items-center">
-                      <p className="leading-3 max-md:leading-5">Unit 305 shown from Sales office</p>
+                      <p className="leading-3 max-md:leading-5 border-b border-gray-400 pb-1.5">Unit 305 shown from Sales office</p>
                       <p className="text-sm text-gray-600 leading-3">13 Mar 2024</p>
                     </div>
-                    <div className="bg-gray-400 h-px w-full my-1.5"></div>
-                    <p className="leading-3 max-md:leading-5">Through website</p>
+
+                    <p className="leading-3 max-md:leading-5 pt-1.5">Through website</p>
                   </div>
                 </li>
 
@@ -242,11 +241,11 @@ const SalesRepPage = () => {
                   <div className="w-5 h-5 bg-gray-600 rounded-full m-2.5"></div>
                   <div className="w-full">
                     <div className="flex justify-between items-center">
-                      <p className="leading-3 max-md:leading-5">Unit added to Favourite</p>
+                      <p className="leading-3 max-md:leading-5 border-b border-gray-400 pb-1.5">Unit added to Favourite</p>
                       <p className="text-sm text-gray-600 leading-3">13 Mar 2024</p>
                     </div>
-                    <div className="bg-gray-400 h-px w-full my-1.5"></div>
-                    <p className="leading-3 max-md:leading-5">Through website</p>
+
+                    <p className="leading-3 max-md:leading-5 pt-1.5">Through website</p>
                   </div>
                 </li>
 
@@ -254,11 +253,11 @@ const SalesRepPage = () => {
                   <div className="w-5 h-5 bg-gray-600 rounded-full m-2.5"></div>
                   <div className="w-full">
                     <div className="flex justify-between items-center">
-                      <p className="leading-3 max-md:leading-5">Unit 304 viewed from website</p>
+                      <p className="leading-3 max-md:leading-5 border-b border-gray-400 pb-1.5">Unit 304 viewed from website</p>
                       <p className="text-sm text-gray-600 leading-3">13 Mar 2024</p>
                     </div>
-                    <div className="bg-gray-400 h-px w-full my-1.5"></div>
-                    <p className="leading-3 max-md:leading-5">By the client</p>
+
+                    <p className="leading-3 max-md:leading-5 pt-1.5">By the client</p>
                   </div>
                 </li>
 
@@ -266,11 +265,11 @@ const SalesRepPage = () => {
                   <div className="w-5 h-5 bg-gray-600 rounded-full m-2.5"></div>
                   <div className="w-full">
                     <div className="flex justify-between items-center">
-                      <p className="leading-3 max-md:leading-5">Note to the client added </p>
+                      <p className="leading-3 max-md:leading-5 border-b border-gray-400 pb-1.5">Note to the client added </p>
                       <p className="text-sm text-gray-600 leading-3">13 Mar 2024</p>
                     </div>
-                    <div className="bg-gray-400 h-px w-full my-1.5"></div>
-                    <p className="leading-3 max-md:leading-5">By the sales rep Eric Young</p>
+
+                    <p className="leading-3 max-md:leading-5 pt-1.5">By the sales rep Eric Young</p>
                   </div>
                 </li>
               </ul>
