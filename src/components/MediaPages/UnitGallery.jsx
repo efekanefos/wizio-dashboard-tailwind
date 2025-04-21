@@ -24,12 +24,12 @@ const UnitGallery = () => {
         </div>
 
         {/* Main Content */}
-        <div className="flex flex-col justify-center items-center w-full max-w-lg mx-auto mt-3">
+        <div className="flex flex-col justify-center items-center w-full max-w-full mx-auto mt-3">
           {/* Title */}
           <h3 className="font-bold text-4xl text-center leading-10">Unit Gallery</h3>
 
           {/* Property Types */}
-          <div className="flex flex-wrap max-w-[420px] justify-center items-center gap-5 w-full mt-5">
+          <div className="flex flex-wrap justify-center items-center gap-5 w-full mt-5">
             <div className="w-48 h-28 flex flex-col justify-center items-center gap-1 py-5 border-[0.5px] border-black rounded-3xl">
               <HomeIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-gray-600 stroke-[1.5px] fill-none"} />
               <p className="text-gray-600 text-center leading-6">Interior Visuals</p>
