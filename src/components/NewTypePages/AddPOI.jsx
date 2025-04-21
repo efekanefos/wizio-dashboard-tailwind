@@ -43,13 +43,13 @@ const AddPOI = () => {
               <p className="text-gray-400 text-sm font-normal ml-5 mt-2">How to find coordinates</p>
 
               <div className="mt-5 px-5">
-                <p className="font-extrabold text-gray-400">Get the coordinates for a place</p>
+                <p className="font-bold text-gray-400">Get the coordinates for a place</p>
                 <ol>
-                  <li className="text-sm font-medium text-gray-400">On your computer, open Google Maps.</li>
-                  <li className="text-sm font-medium text-gray-400">Right-click the place or area on the map.</li>
-                  <li className="text-sm font-medium text-gray-400">This will open a pop-up window. You can find your latitude and longitude in decimal format at the top.</li>
-                  <li className="text-sm font-medium text-gray-400">To copy the coordinates automatically, left click on the latitude and longitude.</li>
-                  <li className="text-sm font-medium text-gray-400">Paste above.</li>
+                  <li className="text-sm font-normal text-gray-400">On your computer, open Google Maps.</li>
+                  <li className="text-sm font-normal text-gray-400">Right-click the place or area on the map.</li>
+                  <li className="text-sm font-normal text-gray-400">This will open a pop-up window. You can find your latitude and longitude in decimal format at the top.</li>
+                  <li className="text-sm font-normal text-gray-400">To copy the coordinates automatically, left click on the latitude and longitude.</li>
+                  <li className="text-sm font-normal text-gray-400">Paste above.</li>
                 </ol>
               </div>
             </div>

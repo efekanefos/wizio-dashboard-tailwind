@@ -66,7 +66,7 @@ const AddDetails = () => {
             <div className="flex justify-between items-center py-5 border-b-[0.25px] border-black">
               <p className="leading-6 text-black">First Floor</p>
               <div className="flex justify-start items-center gap-5">
-                <PdfIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black"} />
+                <PdfIcon className={"w-7 h-7 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black"} />
                 <TrashIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black  fill-none"} />
               </div>
             </div>
@@ -74,7 +74,7 @@ const AddDetails = () => {
             <div className="flex justify-between items-center py-5 border-b-[0.25px] border-black">
               <p className="leading-6 text-black">Second Floor</p>
               <div className="flex justify-start items-center gap-5">
-                <PdfIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black"} />
+                <PdfIcon className={"w-7 h-7 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 fill-black"} />
                 <TrashIcon className={"w-6 h-6 max-md:w-5 max-md:h-5 max-sm:w-4 max-sm:h-4 stroke-black  fill-none"} />
               </div>
             </div>
